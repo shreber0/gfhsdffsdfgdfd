@@ -1,0 +1,195 @@
+author = $STR_A3PL_DEV_TEAM; // "A3PL Development Team"
+onLoadName = "Arma 3 Project Life";
+onLoadMission = "";
+joinUnassigned = 0;
+respawn = 2;
+respawndelay = 5;
+disabledAI = 1;
+disableChannels[] = {{0,true,true},{1,true,true},{2,true,true},{4,true,true},{5,true,true},{6,true,true}};
+skipLobby = 1;
+enableDebugConsole[] = {"76561197986745180","76561198020285021","76561198096687678"};
+respawnDialog = 0;
+//forceRotorLibSimulation = 1;
+loadScreen = "A3PL_Common\GUI\mission.paa";
+respawnButton = 0;
+
+debriefing = 0;
+briefing = 0;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 125;
+};
+
+wreckLimit = 1;
+wreckRemovalMinTime = 30;
+wreckRemovalMaxTime = 60;
+corpseLimit = 1;
+corpseRemovalMinTime = 30;
+corpseRemovalMaxTime = 60;
+
+
+
+#include "Dialogs\common.hpp"
+#include "Dialogs\marcos.hpp"
+
+#include "Dialogs\Dialog_Cellphone.hpp"
+
+
+#include "Dialogs\Dialog_ATM.hpp"
+#include "Dialogs\Dialog_Inventory.hpp"
+#include "Dialogs\Dialog_Shop.hpp"
+#include "Dialogs\Dialog_CarShop.hpp"
+#include "Dialogs\Dialog_Level.hpp"
+
+#include "Dialogs\Dialog_NewPlayer.hpp"
+#include "Dialogs\Dialog_Loading.hpp"
+
+#include "Dialogs\Dialog_911.hpp"
+#include "Dialogs\Dialog_PoliceDatabase.hpp"
+#include "Dialogs\Dialog_PatDown.hpp"
+
+#include "Dialogs\Dialog_BowlingRegister.hpp"
+#include "Dialogs\Dialog_BowlingScoring.hpp"
+
+#include "Dialogs\Dialog_YoutubeAdmin.hpp"
+#include "Dialogs\Dialog_YoutubeMain.hpp"
+
+#include "Dialogs\Dialog_HouseBuy.hpp"
+#include "Dialogs\Dialog_HouseVirtual.hpp"
+#include "Dialogs\Dialog_Lottery.hpp"
+#include "Dialogs\Dialog_LotteryBuyTickets.hpp"
+
+#include "Dialogs\Dialog_CarStorage.hpp"
+#include "Dialogs\Dialog_ObjectStorage.hpp"
+
+#include "Dialogs\Dialog_NPC.hpp"
+
+#include "Dialogs\Dialog_interactionRadial.hpp"
+
+#include "Dialogs\Dialog_Medical.hpp"
+#include "Dialogs\Dialog_DeathScreen.hpp"
+
+#include "Dialogs\Dialog_CreateTicket.hpp"
+#include "Dialogs\Dialog_ReceiveTicket.hpp"
+
+#include "Dialogs\Dialog_JailPlayer.hpp"
+
+#include "Dialogs\Dialog_Admin.hpp"
+#include "Dialogs\Dialog_AdminDebug.hpp"
+
+#include "Dialogs\Dialog_CGSpawn.hpp"
+
+#include "Dialogs\Dialog_VDeliveryJobList.hpp"
+
+
+#include "Dialogs\Dialog_Phone_Active.hpp"
+
+
+
+#include "Dialogs\Dialog_Phone_UberMenu.hpp"
+#include "Dialogs\Dialog_UberAccept.hpp"
+#include "Dialogs\Dialog_Phone_Bank.hpp"
+#include "Dialogs\Dialog_Phone_BankTransferContact.hpp"
+#include "Dialogs\Dialog_Phone_BankTransferNumber.hpp"
+
+#include "Dialogs\Dialog_Nametag.hpp"
+
+#include "Dialogs\Dialog_Dispatch.hpp"
+
+#include "Dialogs\Dialog_Kane9.hpp"
+
+#include "Dialogs\Dialog_ATC.hpp"
+#include "Dialogs\Dialog_Transponder.hpp"
+
+#include "Dialogs\Dialog_Treasury.hpp"
+#include "Dialogs\Dialog_Paintball.hpp"
+#include "Dialogs\Dialog_Twitter.hpp" //twitter enter text
+
+#include "Dialogs\Dialog_BusinessRent.hpp"
+#include "Dialogs\Dialog_ItemSale.hpp"
+#include "Dialogs\Dialog_ItemBuy.hpp"
+#include "Dialogs\Dialog_Gasstation.hpp"
+
+#include "Dialogs\Dialog_Factory.hpp"
+#include "Dialogs\Dialog_Garage.hpp"
+
+#include "Dialogs\Dialog_Vote.hpp"
+#include "Dialogs\Dialog_FactionSetup.hpp"
+
+#include "Dialogs\Dialog_Prospect.hpp"
+#include "Dialogs\Dialog_ProspectFound.hpp"
+
+#include "Dialogs\Dialog_CCTV.hpp"
+
+#include "Dialogs\Dialog_TaxiMeter.hpp"
+
+#include "Dialogs\Dialog_IE.hpp"
+
+#include "Dialogs\Dialog_DMV.hpp"
+
+#include "Dialogs\Dialog_BagWeed.hpp"
+
+#include "Dialogs\Dialog_CombineItems.hpp"
+
+
+class RscTitles
+{
+	#include "Dialogs\Dialog_YoutubeOverlay.hpp"
+	#include "Dialogs\Dialog_HUD.hpp"
+	#include "Dialogs\Dialog_HUD_IDCard.hpp"
+	#include "Dialogs\Dialog_Hud_Cinema.hpp"
+	#include "Dialogs\Dialog_Hud_Overlay.hpp"
+	#include "Dialogs\Dialog_HUD_Twitter.hpp" //twitter hud
+	#include "Dialogs\Dialog_HUD_LoadAction.hpp"
+	#include "Dialogs\Dialog_HUD_Cellphone.hpp"
+	#include "Dialogs\Dialog_HUD_Golf.hpp"
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class firework1
+	{
+		name = "Firework 1";
+		sound[] = {"@A3PL_Objects\Small\Sounds\firework1.ogg", 20, 1};
+		titles[] = {0,""};
+	};
+	
+	class firework2
+	{
+		name = "Firework 2";
+		sound[] = {"@A3PL_Objects\Small\Sounds\firework2.ogg", 20, 1};
+		titles[] = {0,""};
+	};
+
+	class firework3
+	{
+		name = "Firework 3";
+		sound[] = {"@A3PL_Objects\Small\Sounds\firework3.ogg", 20, 1};
+		titles[] = {0,""};
+	};	
+
+	class output1
+	{
+		name = "Output 1";
+		sound[] = {"C:\A3PL_Temp\output1.ogg", 20, 1};
+		titles[] = {0,""};
+	};
+
+	class halloweentheme
+	{
+		name = "Halloween Theme";
+		sound[] = {"@A3PL_Common\effects\shortHWtheme.ogg", 10, 1};
+		titles[] = {0,""};		
+	};
+	
+	class halloweenhorn
+	{
+		name = "Halloween Horn";
+		sound[] = {"@A3PL_Common\effects\horn.ogg", 15, 1};
+		titles[] = {0,""};			
+	};
+};

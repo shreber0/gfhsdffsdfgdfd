@@ -1,0 +1,55 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.028
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 4 Cores, Setting up 4 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[19:25:55:340846 +01:00] [Thread 1524] extDB3: Locked
+[19:25:59:685258 +01:00] [Thread 3032] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String StorageInitUpdateP
+[19:25:59:685406 +01:00] [Thread 3032] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname StorageInitUpdateP
+[19:43:52:077875 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[19:43:52:077926 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode On
+[19:50:15:273162 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[19:50:15:273211 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode Off
+[19:57:21:229116 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[19:57:21:229166 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode On
+[19:57:32:150889 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[19:57:32:150937 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode Off
+[20:02:36:493947 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:02:36:494005 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Luke Marsden (Hunter):76561198084588168:Admin Mode:Toggled Admin Mode On
+[20:02:47:838781 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:02:47:838834 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Luke Marsden (Hunter):76561198084588168:Admin Mode:Toggled Admin Mode Off
+[20:02:58:720796 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:02:58:720846 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode On
+[20:06:05:688925 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:06:05:688969 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode On
+[20:13:14:944048 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:13:14:944098 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode Off
+[20:24:58:957078 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:24:58:957126 +01:00] [Thread 3032] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Luke Marsden (Hunter):76561198084588168:Admin Mode:Toggled Admin Mode On
+[20:27:39:140279 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:27:39:140415 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Luke Marsden (Hunter):76561198084588168:Admin Mode:Toggled Admin Mode Off
+[20:28:07:704137 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:28:07:704187 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Luke Marsden (Hunter):76561198084588168:Admin Mode:Toggled Admin Mode On
+[20:30:33:172638 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:30:33:172687 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode On
+[20:34:48:687481 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:34:48:687532 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Luke Marsden (Hunter):76561198084588168:Admin Mode:Toggled Admin Mode On
+[20:34:51:523813 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:34:51:523849 +01:00] [Thread 3372] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Luke Marsden (Hunter):76561198084588168:Admin Mode:Toggled Admin Mode Off
+[20:42:24:432688 +01:00] [Thread 636] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[20:42:24:432744 +01:00] [Thread 636] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:John Wood (John Wood):76561198297715877:Admin Mode:Toggled Admin Mode Off

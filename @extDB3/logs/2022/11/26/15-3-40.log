@@ -1,0 +1,39 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.028
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 8 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[15:03:41:315959 -05:00] [Thread 22456] extDB3: Locked
+[15:03:42:837488 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Table 'life.referal_system' doesn't exist
+[15:03:42:837513 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Input: LoadReferalTokens
+[15:03:42:838064 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Table 'life.government_balances' doesn't exist
+[15:03:42:838097 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Input: fetchGovBal
+[15:03:42:838577 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Table 'life.government_laws' doesn't exist
+[15:03:42:838610 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Input: fetchGovLaws
+[15:03:42:847295 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Table 'life.faction_vehicle_shop' doesn't exist
+[15:03:42:847332 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Input: fetchFactionVehicleStock
+[15:03:42:847955 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Table 'life.factions' doesn't exist
+[15:03:42:847986 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Input: fetchFactionSetup
+[15:03:42:849547 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Table 'life.faction_ranks' doesn't exist
+[15:03:42:849578 -05:00] [Thread 8920] extDB3: SQL: Error MariaDBStatementException0: Input: fetchFactionRanks
+[15:03:42:856976 -05:00] [Thread 8920] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String StorageInitUpdateP
+[15:03:42:857030 -05:00] [Thread 8920] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname StorageInitUpdateP
+[15:09:13:559798 -05:00] [Thread 1276] extDB3: SQL: Error MariaDBStatementException1: Table 'life.persistent_vars' doesn't exist
+[15:09:13:560012 -05:00] [Thread 1276] extDB3: SQL: Error MariaDBStatementException1: Input: CoreSavePersistentVar:[]:Server_JobVDelivery_JobList

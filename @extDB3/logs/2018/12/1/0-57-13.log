@@ -1,0 +1,31 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.028
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 4 Cores, Setting up 4 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[00:57:19:824930 +01:00] [Thread 4348] extDB3: Locked
+[00:57:24:028405 +01:00] [Thread 3264] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String StorageInitUpdateP
+[00:57:24:028549 +01:00] [Thread 3264] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname StorageInitUpdateP
+[01:12:18:661019 +01:00] [Thread 3596] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[01:12:18:661073 +01:00] [Thread 3596] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Rizmuski Drumaganov (Rizmuski Drumaganov):76561198131233594:Admin Mode:Toggled Admin Mode On
+[01:12:21:082235 +01:00] [Thread 3596] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[01:12:21:082279 +01:00] [Thread 3596] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Rizmuski Drumaganov (Rizmuski Drumaganov):76561198131233594:Admin Mode:Toggled Admin Mode Off
+[01:15:46:128588 +01:00] [Thread 3596] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[01:15:46:128634 +01:00] [Thread 3596] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Rizmuski Drumaganov (Rizmuski Drumaganov):76561198131233594:Admin Mode:Toggled Admin Mode On
+[01:16:02:364891 +01:00] [Thread 3596] extDB3: SQL: Error MariaDBStatementException1: Data truncated for column 'type' at row 1
+[01:16:02:364937 +01:00] [Thread 3596] extDB3: SQL: Error MariaDBStatementException1: Input: AdminLogInsert:Rizmuski Drumaganov (Rizmuski Drumaganov):76561198131233594:Admin Mode:Toggled Admin Mode Off

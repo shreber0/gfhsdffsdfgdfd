@@ -1,0 +1,3433 @@
+<?xml version="0.3" encoding="utf-8"?>
+<Project name="Arma 3 Project Life">
+ 
+    <Package name="Basic">
+        <Key ID="STR_A3PL_DEV_TEAM">
+            <Original>A3PL Development Team</Original>
+            <English>A3PL Development Team</English>
+            <Polish>Zespół‚ deweloperów A3PL</Polish>
+        </Key>
+    </Package>
+       
+    <Package name="Config_Factories">
+    </Package>
+   
+    <Package name="Config_Garage">
+        <Key ID="STR_CGAR_ADDTOWBAR">
+            <Original>Add towbar</Original>
+            <English>Add towbar</English>
+            <Polish>Hak holowniczy</Polish>
+        </Key>
+        <Key ID="STR_CGAR_ADDTOWBARDESC">
+            <Original>Allows you to hitch trailers</Original>
+            <English>Allows you to hitch trailers</English>
+            <Polish>Pozwala na holowanie przyczep</Polish>
+        </Key>
+        <Key ID="STR_CGAR_ROOFC">
+            <Original>Roof carriage</Original>
+            <English>Roof carriage</English>
+            <Polish>Bagażnik dachowy</Polish>
+        </Key>
+        <Key ID="STR_CGAR_ROOFCDESC">
+            <Original>Carry more stuff!</Original>
+            <English>Carry more stuff!</English>
+            <Polish>Zapakuj więcej!</Polish>
+        </Key>
+        <Key ID="STR_CGAR_FRONTPUSH">
+            <Original>Front pushbar</Original>
+            <English>Front pushbar</English>
+            <Polish>Przedni zderzak</Polish>
+        </Key>
+        <Key ID="STR_CGAR_FRONTPUSHDESC">
+            <Original>Protect front from collisions</Original>
+            <English>Protect front from collisions</English>
+            <Polish>Chroni przód przed wypadkami</Polish>
+        </Key>
+        <Key ID="STR_CGAR_REF">
+            <Original>Reflectors</Original>
+            <English>Reflectors</English>
+            <Polish>Reflektory</Polish>
+        </Key>
+        <Key ID="STR_CGAR_REFD">
+            <Original>Makes everyone see you better</Original>
+            <English>Makes everyone see you better</English>
+            <Polish>Sprawia, że inni widzą Cię lepiej</Polish>
+        </Key>
+        <Key ID="STR_CGAR_LIGHTP">
+            <Original>Tail light protectors</Original>
+            <English>Tail light protectors</English>
+            <Polish>Ochrona świateł tylnych</Polish>
+        </Key>
+        <Key ID="STR_CGAR_LIGHTPD">
+            <Original>Protects your tail lights from those bumper cars</Original>
+            <English>Protects your tail lights from those bumper cars</English>
+            <Polish>Chroni twoje tylne światła przed zderzakami pojazdów</Polish>
+        </Key>
+        <Key ID="STR_CGAR_RACEWING">
+            <Original>Racing Wing"</Original>
+            <English>Racing Wing"</English>
+            <Polish>Spojler</Polish>
+        </Key>
+        <Key ID="STR_CGAR_RACEWINGD">
+            <Original>Just cosmetic</Original>
+            <English>Just cosmetic</English>
+            <Polish>Tylko dla wyglądu</Polish>
+        </Key>
+        <Key ID="STR_CGAR_TSIGN1">
+            <Original>Taxi Sign 1</Original>
+            <English>Taxi Sign 1</English>
+            <Polish>Kogut Taxi 1</Polish>
+        </Key>
+        <Key ID="STR_CGAR_TSIGN1D">
+            <Original>Taxi Sign for the roof</Original>
+            <English>Taxi Sign for the roof</English>
+            <Polish>Szyld taksówki na dach</Polish>
+        </Key>
+        <Key ID="STR_CGAR_TSIGN2">
+            <Original>Taxi Sign 2</Original>
+            <English>Taxi Sign 2</English>
+            <Polish>Kogut Taxi 2</Polish>
+        </Key>
+        <Key ID="STR_CGAR_TSIGN2D">
+            <Original>Taxi Sign with advertisement for the roof</Original>
+            <English>Taxi Sign with advertisement for the roof</English>
+            <Polish>Kogut Taxi z reklamą na dach</Polish>
+        </Key>
+        <Key ID="STR_CGAR_RR">
+            <Original>Roof Rack</Original>
+            <English>Roof Rack</English>
+            <Polish>Bagażnik dachowy</Polish>
+        </Key>
+        <Key ID="STR_CGAR_RRD">
+            <Original>Cargo rack for the roof</Original>
+            <English>Cargo rack for the roof</English>
+            <Polish>Pojemnik na towar na dachu</Polish>
+        </Key>
+        <Key ID="STR_CGAR_RL">
+            <Original>Roof Lights</Original>
+            <English>Roof Lights</English>
+            <Polish>Światła dachowe</Polish>
+        </Key>
+        <Key ID="STR_CGAR_RLD">
+            <Original>Lights mounted on the roof</Original>
+            <English>Lights mounted on the roof</English>
+        </Key>
+        <Key ID="STR_CGAR_ST">
+            <Original>Spare Tire</Original>
+            <English>Spare Tire</English>
+            <Polish>Koło zapasowe</Polish>
+        </Key>
+        <Key ID="STR_CGAR_STD">
+            <Original>Only cosmetic</Original>
+            <English>Only cosmetic</English>
+        </Key>
+        <Key ID="STR_CGAR_BB">
+            <Original>Bull Bar</Original>
+            <English>Bull Bar</English>
+            <Polish>Osłona przednia</Polish>
+        </Key>
+        <Key ID="STR_CGAR_BBD">
+            <Original>Protect front from collisions</Original>
+            <English>Protect front from collisions</English>
+            <Polish>Chroni przód samochodu przed uszkodzeniami</Polish>
+        </Key>
+        <Key ID="STR_CGAR_SL">
+            <Original>Spotlight</Original>
+            <English>Spotlight</English>
+              <Polish>Reflektor punktowy</Polish>
+        </Key>
+        <Key ID="STR_CGAR_SLD">
+            <Original>Shines light onto criminals</Original>
+            <English>Shines light onto criminals</English>
+            <Polish>Świeci światłem na przestępców</Polish>
+        </Key>
+		<Key ID="STR_CGAR_DRIVER_GUARD">
+            <Original>Driver Guard</Original>
+            <English>Driver Guard</English>
+        </Key>
+        <Key ID="STR_CGAR_DRIVER_GUARDD">
+            <Original>Partition between front and rear seats</Original>
+            <English>Partition between front and rear seats</English>
+        </Key>
+		<Key ID="STR_CGAR_RB">
+            <Original>Roll Bar</Original>
+            <English>Roll Bar</English>
+        </Key>
+		<Key ID="STR_CGAR_RC">
+            <Original>Roll Cage</Original>
+            <English>Roll Cage</English>
+        </Key>
+        <Key ID="STR_CGAR_RCD">
+            <Original>Protect occupants when the vehicle rolls over</Original>
+            <English>Protect occupants when the vehicle rolls over</English>
+        </Key>
+		<Key ID="STR_CGAR_LB">
+            <Original>Lightbar</Original>
+            <English>Lightbar</English>
+        </Key>
+        <Key ID="STR_CGAR_LBD">
+            <Original>Bar of lights mounted on the roof</Original>
+            <English>Bar of lights mounted on the roof</English>
+        </Key>
+		<Key ID="STR_CGAR_DL">
+            <Original>Driving Lights</Original>
+            <English>Driving Lights</English>
+        </Key>
+        <Key ID="STR_CGAR_DLD">
+            <Original>Driving Lights mounted on Bull Bar</Original>
+            <English>Driving Lights mounted on Bull Bar</English>
+        </Key>
+		<Key ID="STR_CGAR_ROOCE">
+            <Original>Camping Equipment</Original>
+            <English>Camping Equipment</English>
+        </Key>
+        <Key ID="STR_CGAR_ROOCED">
+            <Original>Camping Equipment for roof rack</Original>
+            <English>Camping Equipment for roof rack</English>
+        </Key>
+		<Key ID="STR_CGAR_L">
+            <Original>Ladder</Original>
+            <English>Ladder</English>
+        </Key>
+        <Key ID="STR_CGAR_LD">
+            <Original>Ladder mounted on the back of the vehicle</Original>
+            <English>Ladder mounted on the back of the vehicle</English>
+        </Key>
+		<Key ID="STR_CGAR_BG">
+            <Original>Bumper Guard</Original>
+            <English>Bumper Guard</English>
+        </Key>
+        <Key ID="STR_CGAR_BGD">
+            <Original>Protects rear bumper from damage</Original>
+            <English>Protects rear bumper from damage</English>
+        </Key>
+		<Key ID="STR_CGAR_SB">
+            <Original>Stock Hood</Original>
+            <English>Stock Hood</English>
+        </Key>
+        <Key ID="STR_CGAR_SBD">
+            <Original>Original Hood</Original>
+            <English>Original Hood</English>
+        </Key>
+		<Key ID="STR_CGAR_SFB">
+            <Original>Stock Front Bumper</Original>
+            <English>Stock Front Bumper</English>
+        </Key>
+        <Key ID="STR_CGAR_SFBD">
+            <Original>Original Front Bumper</Original>
+            <English>Original Front Bumper</English>
+        </Key>
+		<Key ID="STR_CGAR_SRB">
+            <Original>Stock Rear Bumper</Original>
+            <English>Stock Rear Bumper</English>
+        </Key>
+        <Key ID="STR_CGAR_SRBD">
+            <Original>Original Rear Bumper</Original>
+            <English>Original Rear Bumper</English>
+        </Key>
+		<Key ID="STR_CGAR_SE">
+            <Original>Stock Exhaust</Original>
+            <English>Stock Exhaust</English>
+        </Key>
+        <Key ID="STR_CGAR_SED">
+            <Original>Original Exhaust</Original>
+            <English>Original Exhaust</English>
+        </Key>
+		<Key ID="STR_CGAR_SW">
+            <Original>Stock Spoiler</Original>
+            <English>Stock Spoiler</English>
+        </Key>
+        <Key ID="STR_CGAR_SWD">
+            <Original>Original Spoiler</Original>
+            <English>Original Spoiler</English>
+        </Key>
+		<Key ID="STR_CGAR_SSS">
+            <Original>Stock Side Skirt</Original>
+            <English>Stock Side Skirt</English>
+        </Key>
+        <Key ID="STR_CGAR_SSSD">
+            <Original>Original Side Skirt</Original>
+            <English>Original Side Skirt</English>
+        </Key>
+		<Key ID="STR_CGAR_RCS">
+            <Original>Reverse Cowl Scoop</Original>
+            <English>Reverse Cowl Scoop</English>
+        </Key>
+        <Key ID="STR_CGAR_BS">
+            <Original>Bonnet Scoop</Original>
+            <English>Bonnet Scoop</English>
+        </Key>
+		<Key ID="STR_CGAR_GL">
+            <Original>General Lee</Original>
+            <English>General Lee</English>
+        </Key>
+        <Key ID="STR_CGAR_GLD">
+            <Original>Outfit with Pushbar, Antenna and Roll Cage</Original>
+            <English>Outfit with Pushbar, Antenna and Roll Cage</English>
+        </Key>
+		<Key ID="STR_CGAR_DS">
+            <Original>Driving School</Original>
+            <English>Driving School</English>
+        </Key>
+        <Key ID="STR_CGAR_DSD">
+            <Original>DMV Driving School</Original>
+            <English>DMV Driving School</English>
+        </Key>
+		<Key ID="STR_CGAR_BC">
+            <Original>Bed Cover</Original>
+            <English>Bed Cover</English>
+        </Key>
+        <Key ID="STR_CGAR_BCD">
+            <Original>Protect cargo in the bed</Original>
+            <English>Protect cargo in the bed</English>
+        </Key>
+		<Key ID="STR_CGAR_TB">
+            <Original>Toolbox</Original>
+            <English>Toolbox</English>
+        </Key>
+        <Key ID="STR_CGAR_TBD">
+            <Original>Two tool boxes in bed (Only cosmetic)</Original>
+            <English>Two tool boxes in bed (Only cosmetic)</English>
+        </Key>
+		<Key ID="STR_CGAR_W">
+            <Original>Winch</Original>
+            <English>Winch</English>
+		</Key>
+		<Key ID="STR_CGAR_S">
+            <Original>Snorkel</Original>
+            <English>Snorkel</English>
+		</Key>
+		 <Key ID="STR_CGAR_FBARTYPE">
+            <Original>Front Bumper Type %1</Original>
+            <English>Front Bumper Type %1</English>
+		</Key>
+		<Key ID="STR_CGAR_AFTERMFBAR">
+            <Original>Aftermarket Front Bumper %1</Original>
+            <English>Aftermarket Front Bumper %1</English>
+		</Key>
+		<Key ID="STR_CGAR_RBARTYPE">
+            <Original>Rear Bumper Type %1</Original>
+            <English>Rear Bumper Type %1</English>
+		</Key>
+		<Key ID="STR_CGAR_AFTERMRBAR">
+            <Original>Aftermarket Rear Bumper %1</Original>
+            <English>Aftermarket Rear Bumper %1</English>
+		</Key>
+		<Key ID="STR_CGAR_EXHTYPE">
+            <Original>Exhaust Type %1</Original>
+            <English>Exhaust Type %1</English>
+		</Key>
+		<Key ID="STR_CGAR_AFTERMEXH">
+            <Original>Aftermarket Exhaust %1</Original>
+            <English>Aftermarket Exhaust %1</English>
+		</Key>
+		<Key ID="STR_CGAR_SSKIRTTYPE">
+            <Original>Side Skirt Type %1</Original>
+            <English>Side Skirt Type %1</English>
+		</Key>
+		<Key ID="STR_CGAR_AFTERMSSKIRT">
+            <Original>Aftermarket Side Skirt %1</Original>
+            <English>Aftermarket Side Skirt %1</English>
+		</Key>
+		<Key ID="STR_CGAR_WINGTYPE">
+            <Original>Wing Type %1</Original>
+            <English>Wing Type %1</English>
+		</Key>
+		<Key ID="STR_CGAR_AFTERMEWING">
+            <Original>Aftermarket Rear Wing %1</Original>
+            <English>Aftermarket Rear Wing %1</English>
+		</Key>
+    </Package>
+   
+   
+    <Package name="Config_Interactions">
+        <Key ID="STR_INTER_FILESREC">
+            <Original>A3PL Files Recompiled.</Original>
+            <English>A3PL Files Recompiled.</English>
+            <Polish>Pliki A3PL przekompilowane</Polish>
+        </Key>
+        <Key ID="STR_INTER_OPENLICMENU">
+            <Original>Open licensing menu</Original>
+            <English>Open licensing menu</English>
+            <Polish>Otwórz menu licencji</Polish>
+        </Key>
+        <Key ID="STR_INTER_GETINC">
+            <Original>Get in crane</Original>
+            <English>Get in crane</English>
+            <Polish>Wejdź do żurawia</Polish>
+        </Key>
+        <Key ID="STR_INTER_EXITC">
+            <Original>Exit crane</Original>
+            <English>Exit crane</English>
+            <Polish>Wyjdź z żurawia</Polish>
+        </Key>
+        <Key ID="STR_INTER_RESETC">
+            <Original>Reset crane</Original>
+            <English>Reset crane</English>
+            <Polish>Zresetuj żurawia</Polish>
+        </Key>
+        <Key ID="STR_INTER_SHOWCCONT">
+            <Original>Show crane controls</Original>
+            <English>Show crane controls</English>
+            <Polish>Pokaż sterowanie żurawia</Polish>
+        </Key>
+        <Key ID="STR_INTER_SHOWCONT1">
+            <Original>System: Use the movement keys to move the crane around</Original>
+            <English>System: Use the movement keys to move the crane around</English>
+            <Polish>System: Używaj przycisków chodzenia aby poruszać żurawiem</Polish>
+        </Key>
+        <Key ID="STR_INTER_SHOWCONT2">
+            <Original>System: Press PAGE UP and PAGE DOWN to turn the crane</Original>
+            <English>System: Press PAGE UP and PAGE DOWN to turn the crane</English>
+            <Polish>System: Naciśnij PAGE UP lub PAGE DOWN, aby obracać żurawiem</Polish>
+        </Key>
+        <Key ID="STR_INTER_SHOWCONT3">
+            <Original>System: Press HOME and END to move the boom up and down</Original>
+            <English>System: Press HOME and END to move the boom up and down</English>
+            <Polish>System: Naciśnij HOME i END, aby przesuwać szynę w górę lub w dół</Polish>
+        </Key>
+        <Key ID="STR_INTER_SHOWCONT4">
+            <Original>System: Press DELETE and INSERT to move the hook up and down</Original>
+            <English>System: Press DELETE and INSERT to move the hook up and down</English>
+            <Polish>System: Naciśnij DELETE lub INSERT, aby przesuwać hak w górę lub w dół</Polish>
+        </Key>
+        <Key ID="STR_INTER_SHOWCONT5">
+            <Original>System: Press , and . to rotate the hook around</Original>
+            <English>System: Press , and . to rotate the hook around</English>
+            <Polish>System: Naciśnij , lub . aby obracać hakiem</Polish>
+        </Key>
+        <Key ID="STR_INTER_SHOWCONT6">
+            <Original>System: Press SPACE to pickup/drop a container</Original>
+            <English>System: Press SPACE to pickup/drop a container</English>
+            <Polish>System: Naciśnij SPACJĘ aby podczepić/odczepić ładunek</Polish>fare
+        </Key>
+        <Key ID="STR_INTER_PLACERC">
+            <Original>Place a roadcone</Original>
+            <English>Place a roadcone</English>
+            <Polish>Umieść pachołek</Polish>
+        </Key>
+        <Key ID="STR_INTER_SETUPTAXIFEE">
+            <Original>Setup taxi fare</Original>
+            <English>Setup taxi fare</English>
+            <Polish>Ustaw taryfikator taksówki</Polish>
+        </Key>
+        <Key ID="STR_INTER_OPENMED">
+            <Original>Open medical</Original>
+            <English>Open medical</English>
+            <Polish>Monitor medyczny</Polish>
+        </Key>
+        <Key ID="STR_INTER_TAKEPHOST">
+            <Original>Take person hostage</Original>
+            <English>Take person hostage</English>
+            <Polish>Weź osobę za zakładnika</Polish>
+        </Key>
+        <Key ID="STR_INTER_RELHOST">
+            <Original>Release hostage</Original>
+            <English>Release hostage</English>
+            <Polish>Wypuść zakładnika</Polish>
+        </Key>
+        <Key ID="STR_INTER_POINTGFOR">
+            <Original>Point gun forward</Original>
+            <English>Point gun forward</English>
+            <Polish>Skieruj broń do przodu</Polish>
+        </Key>
+        <Key ID="STR_INTER_POINTGHOST">
+            <Original>Point gun at hostage</Original>
+            <English>Point gun at hostage</English>
+            <Polish>Skieruj broń na zakładnika</Polish>
+        </Key>
+        <Key ID="STR_INTER_SELLVEH">
+            <Original>Sell vehicle</Original>
+            <English>Sell vehicle</English>
+            <Polish>Sprzedaj pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTER_BUYVEH">
+            <Original>Buy vehicle</Original>
+            <English>Buy vehicle</English>
+            <Polish>Kup pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTER_PLANTSEED">
+            <Original>Plant seed</Original>
+            <English>Plant seed</English>
+            <Polish>Zasadź nasiono</Polish>
+        </Key>
+        <Key ID="STR_INTER_SEARCHSEED">
+            <Original>Search for seeds</Original>
+            <English>Search for seeds</English>
+            <Polish>Szukaj nasion</Polish>
+        </Key>
+        <Key ID="STR_INTER_OPENFACTIONS">
+            <Original>Open faction setup</Original>
+            <English>Open faction setup</English>
+            <Polish>Otwórz opcję frakcji</Polish>
+        </Key>
+        <Key ID="STR_INTER_PROSPECTG">
+            <Original>Prospect ground</Original>
+            <English>Prospect ground</English>
+            <Polish>Przeszukaj glebę</Polish>
+        </Key>
+        <Key ID="STR_INTER_CHECKTANKC">
+            <Original>Check tanker content</Original>
+            <English>Check tanker content</English>
+            <Polish>Sprawdź zawartość cysterny</Polish>
+        </Key>
+        <Key ID="STR_INTER_SHOWID">
+            <Original>Show ID</Original>
+            <English>Show ID</English>
+            <Polish>Pokaż dowód osobisty</Polish>
+        </Key>
+        <Key ID="STR_INTER_GRABID">
+            <Original>Grab ID</Original>
+            <English>Grab ID</English>
+            <Polish>Weź dowód osobisty</Polish>
+        </Key>
+        <Key ID="STR_INTER_SETNAMET">
+            <Original>Set Nametag</Original>
+            <English>Set Nametag</English>
+            <Polish>Ustaw imię i nazwisko</Polish>
+        </Key>
+        <Key ID="STR_INTER_JAILP">
+            <Original>Jail Player</Original>
+            <English>Jail Player</English>
+            <Polish>Wyślij do więzienia</Polish>
+        </Key>
+        <Key ID="STR_INTER_THROWPOP">
+            <Original>Throw popcorn</Original>
+            <English>Throw popcorn</English>
+            <Polish>Rzuć popcornem</Polish>
+        </Key>
+        <Key ID="STR_INTER_SEARCHP">
+            <Original>Search Player</Original>
+            <English>Search Player</English>
+            <Polish>Szukaj gracza</Polish>
+        </Key>
+        <Key ID="STR_INTER_SEIZEITEMS">
+            <Original>Seize Items</Original>
+            <English>Seize Items</English>
+            <Polish>Skonfiskuj rzeczy</Polish>
+        </Key>
+        <Key ID="STR_INTER_REPAIRTEROB">
+            <Original>Repair terrain object</Original>
+            <English>Repair terrain object</English>
+            <Polish>Napraw element terenu</Polish>
+        </Key>
+        <Key ID="STR_INTER_MARKIMPPOL">
+            <Original>Unmark/Mark - impound (Police)</Original>
+            <English>Unmark/Mark - impound (Police)</English>
+            <Polish>Odznacz/Zaznacz do odholowania  (Policja)</Polish>
+        </Key>
+        <Key ID="STR_INTER_MARKIMPFIFR">
+            <Original>Unmark/Mark - impound (FIFR)</Original>
+            <English>Unmark/Mark - impound (FIFR)</English>
+            <Polish>Odznacz/Zaznacz - Do odholowania (Straż Pożarna)</Polish>
+        </Key>
+        <Key ID="STR_INTER_IMPUSC">
+            <Original>Impound (USCG)</Original>
+            <English>Impound (USCG)</English>
+            <Polish>Odholuj (USCG)</Polish>
+        </Key>
+        <Key ID="STR_INTER_MARKFORIMP">
+            <Original>Unmark/Mark for impound</Original>
+            <English>Unmark/Mark for impound</English>
+            <Polish>Odznacz/Zaznacz do odholowania</Polish>
+        </Key>
+        <Key ID="STR_INTER_LOCKV">
+            <Original>Lock Vehicle</Original>
+            <English>Lock Vehicle</English>
+            <Polish>Zamknij pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTER_LOCKVD">
+            <Original>System: You locked the vehicle doors</Original>
+            <English>System: You locked the vehicle doors</English>
+            <Polish>System: Zamknąłeś drzwi pojazdu</Polish>
+        </Key>
+        <Key ID="STR_INTER_UNLOCKV">
+            <Original>Unlock Vehicle</Original>
+            <English>Unlock Vehicle</English>
+            <Polish>Otwórz pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTER_UNLOCKVD">
+            <Original>System: You unlocked the vehicle doors</Original>
+            <English>System: You unlocked the vehicle doors</English>
+            <Polish>System: Otworzyłeś drzwi pojazdu</Polish>
+        </Key>
+        <Key ID="STR_INTER_ATTACHNB">
+            <Original>Attach nearest boat</Original>
+            <English>Attach nearest boat</English>
+            <Polish>Podczep najbliższą łódź</Polish>
+        </Key>
+        <Key ID="STR_INTER_DETACHBOAT">
+            <Original>Detach boat</Original>
+            <English>Detach boat</English>
+            <Polish>Odczep łódź</Polish>
+        </Key>
+        <Key ID="STR_INTER_CLIMBINYACHT">
+            <Original>Climb onto yacht</Original>
+            <English>Climb onto yacht</English>
+            <Polish>Wejdź na jacht</Polish>
+        </Key>
+        <Key ID="STR_INTER_INVENTORY">
+            <Original>Inventory</Original>
+            <English>Inventory</English>
+            <Polish>Ekwipunek</Polish>
+        </Key>
+        <Key ID="STR_INTER_REVIVE">
+            <Original>Revive</Original>
+            <English>Revive</English>
+            <Polish>Reanimuj</Polish>
+        </Key>
+        <Key ID="STR_INTER_THROWBB">
+            <Original>Throw Bowling Ball</Original>
+            <English>Throw Bowling Ball</English>
+            <Polish>Rzuć kulą</Polish>
+        </Key>
+        <Key ID="STR_INTER_DROPBB">
+            <Original>Drop Bowling Ball</Original>
+            <English>Drop Bowling Ball</English>
+            <Polish>Upuść kulę</Polish>
+        </Key>
+        <Key ID="STR_INTER_UNFREEZE">
+            <Original>(Un)Freeze</Original>
+            <English>(Un)Freeze</English>
+            <Polish>(Od)Mróź</Polish>
+        </Key>
+        <Key ID="STR_INTER_CUFFP">
+            <Original>Cuff person</Original>
+            <English>Cuff person</English>
+            <Polish>Skuj osobę</Polish>
+        </Key>
+        <Key ID="STR_INTER_CUFFPD">
+            <Original>You need handcuffs to do this!</Original>
+            <English>You need handcuffs to do this!</English>
+            <Polish>Potrzebujesz kajdanek aby to zrobić!</Polish>
+        </Key>
+        <Key ID="STR_INTER_UNCUFFP">
+            <Original>Uncuff person</Original>
+            <English>Uncuff person</English>
+            <Polish>Rozkuj osobę</Polish>
+        </Key>
+        <Key ID="STR_INTER_UNCUFFPD">
+            <Original>You have something in your hands and can't perform this action!</Original>
+            <English>You have something in your hands and can't perform this action!</English>
+            <Polish>Trzymasz coś w ręku i nie możesz wykonać tej czynności!</Polish>
+        </Key>
+        <Key ID="STR_INTER_KICKPDOWN">
+            <Original>Kick person down</Original>
+            <English>Kick person down</English>
+            <Polish>Powal osobę na glebę</Polish>
+        </Key>
+        <Key ID="STR_INTER_SURRENDER">
+            <Original>Surrender</Original>
+            <English>Surrender</English>
+            <Polish>Poddaj się</Polish>
+        </Key>
+        <Key ID="STR_INTER_ENDSURRENDER">
+            <Original>End surrender</Original>
+            <English>End surrender</English>
+            <Polish>Zakończ poddawanie się</Polish>
+        </Key>
+        <Key ID="STR_INTER_KNEELDOWN">
+            <Original>Kneel down</Original>
+            <English>Kneel down</English>
+            <Polish>Uklęknij</Polish>
+        </Key>
+        <Key ID="STR_INTER_STANDUP">
+            <Original>Stand up</Original>
+            <English>Stand up</English>
+            <Polish>Wstań</Polish>
+        </Key>
+        <Key ID="STR_INTER_STOPDRGING">
+            <Original>Stop dragging</Original>
+            <English>Stop dragging</English>
+            <Polish>Upuść</Polish>
+        </Key>
+        <Key ID="STR_INTER_DETAINSUSINVEH">
+            <Original>Detain suspect in vehicle</Original>
+            <English>Detain suspect in vehicle</English>
+            <Polish>Zamknij podejrzanego w pojeździe</Polish>
+        </Key>
+        <Key ID="STR_INTER_EJECTALLP">
+            <Original>Eject all passengers</Original>
+            <English>Eject all passengers</English>
+            <Polish>Wyciągnij wszystkich pasażerów</Polish>
+        </Key>
+        <Key ID="STR_INTER_EATITEM">
+            <Original>Eat Item</Original>
+            <English>Eat Item</English>
+            <Polish>Zjedz</Polish>
+        </Key>
+        <Key ID="STR_INTER_DRINKITEM">
+            <Original>Drink Item</Original>
+            <English>Drink Item</English>
+            <Polish>Wypij</Polish>
+        </Key>
+        <Key ID="STR_INTER_USEDRUGS">
+            <Original>Use drugs</Original>
+            <English>Use drugs</English>
+            <Polish>Zażyj narkotyki</Polish>
+        </Key>
+        <Key ID="STR_INTER_PUTITEMB">
+            <Original>Put Item Back</Original>
+            <English>Put Item Back</English>
+            <Polish>Odłóż przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTER_DESTROYT">
+            <Original>Destroy ticket</Original>
+            <English>Destroy ticket</English>
+            <Polish>Zniszcz mandat</Polish>
+        </Key>
+        <Key ID="STR_INTER_WRITET">
+            <Original>Write ticket</Original>
+            <English>Write ticket</English>
+            <Polish>Wypisz mandat</Polish>
+        </Key>
+        <Key ID="STR_INTER_THROWIT">
+            <Original>Throw Item</Original>
+            <English>Throw Item</English>
+            <Polish>Rzuć przedmiotem</Polish>
+        </Key>
+        <Key ID="STR_INTER_DROPITEM">
+            <Original>Drop Item</Original>
+            <English>Drop Item</English>
+            <Polish>Upuść przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTER_PICKUPITEM">
+            <Original>Pickup Item</Original>
+            <English>Pickup Item</English>
+            <Polish>Podnieś przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTER_EXITMOTORB">
+            <Original>Exit Motorboat</Original>
+            <English>Exit Motorboat</English>
+            <Polish>Wyjdź z motorówki</Polish>
+        </Key>
+        <Key ID="STR_INTER_EXITMOTORBD">
+            <Original>System: Unable to exit, this vehicle is locked</Original>
+            <English>System: Unable to exit, this vehicle is locked</English>
+            <Polish>System: Nie można wyjść, pojazd jest zamknięty</Polish>
+        </Key>
+        <Key ID="STR_INTER_PASSENGERMB">
+            <Original>Passenger Motorboat</Original>
+            <English>Passenger Motorboat</English>
+            <Polish>Motorówka osobowa</Polish>
+        </Key>
+        <Key ID="STR_INTER_UNABLEENT">
+            <Original>System: Unable to enter, this vehicle is locked</Original>
+            <English>System: Unable to enter, this vehicle is locked</English>
+            <Polish>System: Nie można wejść, ten pojazd jest zamknięty</Polish>
+        </Key>
+        <Key ID="STR_INTER_ENTERMB">
+            <Original>Enter Motorboat</Original>
+            <English>Enter Motorboat</English>
+            <Polish>Wejdź do motorówki</Polish>
+        </Key>
+        <Key ID="STR_INTER_TOGGLESL">
+            <Original>Toggle Searchlight</Original>
+            <English>Toggle Searchlight</English>
+            <Polish>Włącz szperacze</Polish>
+        </Key>
+        <Key ID="STR_INTER_TOGGLERB">
+            <Original>Toggle Rescue Basket</Original>
+            <English>Toggle Rescue Basket</English>
+            <Polish>Uruchom kosz ratunkowy</Polish>
+        </Key>
+        <Key ID="STR_INTER_TOGGLERBD">
+            <Original>System: You can't retrieve the basket with someone in it</Original>
+            <English>System: You can't retrieve the basket with someone in it</English>
+            <Polish>System: Nie możesz odzyskać kosza z kimś w środku</Polish>
+        </Key>
+        <Key ID="STR_INTER_EXITINTOHEIL">
+            <Original>Exit Into Heil</Original>
+            <English>Exit Into Heil</English>
+            <Polish>Wyjdź z helikoptera</Polish>
+        </Key>
+        <Key ID="STR_INTER_HEIL2far">
+            <Original>System: Heil too far away</Original>
+            <English>System: Heil too far away</English>
+            <Polish>Sysyem: Helikopter jest zbyt daleko</Polish>
+        </Key>
+        <Key ID="STR_INTER_EXITINTOHEILD">
+            <Original>System: Can't get into heil somebody is on the stretcher</Original>
+            <English>System: Can't get into heil somebody is on the stretcher</English>
+            <Polish>System: Nie można wejść do helikoptera jeśli ktoś jest na noszach</Polish>
+        </Key>
+        <Key ID="STR_INTER_INCREASERL">
+            <Original>Increase Rope Length</Original>
+            <English>Increase Rope Length</English>
+            <Polish>Rozwiń linę</Polish>
+        </Key>
+        <Key ID="STR_INTER_DECREASERL">
+            <Original>Decrease Rope Length</Original>
+            <English>Decrease Rope Length</English>
+            <Polish>Zwiń linę</Polish>
+        </Key>
+        <Key ID="STR_INTER_TOGGLEAH">
+            <Original>Toggle Autohover</Original>
+            <English>Toggle Autohover</English>
+            <Polish>Włącz autozawis</Polish>
+        </Key>
+        <Key ID="STR_INTER_USETRANS">
+            <Original>Use transponder</Original>
+            <English>Use transponder</English>
+            <Polish>Użyj transpondera</Polish>
+        </Key>
+        <Key ID="STR_INTER_TOGGLEC">
+            <Original>Toggle Control</Original>
+            <English>Toggle Control</English>
+            <Polish>Udostępnij stery</Polish>
+        </Key>
+        <Key ID="STR_INTER_TAKEC">
+            <Original>Take Control</Original>
+            <English>Take Control</English>
+            <Polish>Przejmij stery</Polish>
+        </Key>
+        <Key ID="STR_INTER_RELEASEC">
+            <Original>Release Control</Original>
+            <English>Release Control</English>
+            <Polish>Zwolnij stery</Polish>
+        </Key>
+        <Key ID="STR_INTER_OPENRADARS">
+            <Original>Open radar screen</Original>
+            <English>Open radar screen</English>
+            <Polish>Otwórz radar</Polish>
+        </Key>
+        <Key ID="STR_INTER_RESETPLANEV">
+            <Original>Reset plane velocity</Original>
+            <English>Reset plane velocity</English>
+            <Polish>Zresetuj wysokość samolotu</Polish>
+        </Key>
+        <Key ID="STR_INTER_EXITVEH">
+            <Original>Exit vehicle</Original>
+            <English>Exit vehicle</English>
+            <Polish>Wyjdź z pojazdu</Polish>
+        </Key>
+        <Key ID="STR_INTER_PPFOR">
+            <Original>Push plane forward</Original>
+            <English>Push plane forward</English>
+            <Polish>Pochyl samolot w przód</Polish>
+        </Key>
+        <Key ID="STR_INTER_PBPLANE">
+            <Original>Push-back plane</Original>
+            <English>Push-back plane</English>
+            <Polish>Odchyl samolot w tył</Polish>
+        </Key>
+        <Key ID="STR_INTER_DEPLOYPAR">
+            <Original>Deploy Parachute</Original>
+            <English>Deploy Parachute</English>
+            <Polish>Użyj spadochronu</Polish>
+        </Key>
+        <Key ID="STR_INTER_SWITCHCON">
+            <Original>Switch Controls</Original>
+            <English>Switch Controls</English>
+            <Polish>Zmien sterowanie</Polish>
+        </Key>
+        <Key ID="STR_INTER_DEPLOYFH">
+            <Original>Deploy Fire Hose</Original>
+            <English>Deploy Fire Hose</English>
+            <Polish>Użyj węża strażackiego</Polish>
+        </Key>
+        <Key ID="STR_INTER_DROPHOSEA">
+            <Original>Drop Hose Adapter</Original>
+            <English>Drop Hose Adapter</English>
+            <Polish>Upuść końcówkę do węża</Polish>
+        </Key>
+        <Key ID="STR_INTER_SETNPRES">
+            <Original>Set nozzle pressure</Original>
+            <English>Set nozzle pressure</English>
+            <Polish>Ustaw ciśnienie dyszy</Polish>
+        </Key>
+        <Key ID="STR_INTER_PUTMASKON">
+            <Original>Put mask on</Original>
+            <English>Put mask on</English>
+            <Polish>Załóż maskę</Polish>
+        </Key>
+        <Key ID="STR_INTER_PUTMASKOFF">
+            <Original>Take off mask</Original>
+            <English>Take off mask</English>
+            <Polish>Zdejmij maskę</Polish>
+        </Key>
+        <Key ID="STR_INTER_CLEANMASK">
+            <Original>Clean mask</Original>
+            <English>Clean mask</English>
+            <Polish>Wyczyść maskę</Polish>
+        </Key>
+        <Key ID="STR_INTER_DIGGROUND">
+            <Original>Dig ground</Original>
+            <English>Dig ground</English>
+            <Polish>Odkop ziemie</Polish>
+        </Key>
+        <Key ID="STR_INTER_HIGHBEAM">
+            <Original>High beam</Original>
+            <English>High beam</English>
+            <Polish>Światła mijania</Polish>
+        </Key>
+        <Key ID="STR_INTER_RESETLOCKF">
+            <Original>Reset lock/fast</Original>
+            <English>Reset lock/fast</English>
+            <Polish>Zresetuj blokade/szybko</Polish>
+        </Key>
+        <Key ID="STR_INTER_CHECKBPMONEY">
+            <Original>Check backpack money</Original>
+            <English>Check backpack money</English>
+            <Polish>Sprawdź pieniądze w plecaku</Polish>
+        </Key>
+        <Key ID="STR_INTER_SPAWNSTORAGEB">
+            <Original>Spawn storage box</Original>
+            <English>Spawn storage box</English>
+            <Polish>Wyciągnij kontener</Polish>
+        </Key>
+        <Key ID="STR_INTER_FINDHOUSEN">
+            <Original>System: Couldn't find house nearby, report this bug</Original>
+            <English>System: Couldn't find house nearby, report this bug</English>
+            <Polish>System: Nie znaleziono domu w pobliżu, zgłoś ten błąd</Polish>
+        </Key>
+        <Key ID="STR_INTER_STORESTORAGEB">
+            <Original>Store storage box</Original>
+            <English>Store storage box</English>
+            <Polish>Schowaj kontener</Polish>
+        </Key>
+        <Key ID="STR_INTER_FINDSTORAGEN">
+            <Original>System: Couldn't find the storage nearby, report this bug</Original>
+            <English>System: Couldn't find the storage nearby, report this bug</English>
+            <Polish>System: Nie znaleziono kontenera w pobliżu, zgłoś ten błąd</Polish>
+        </Key>
+        <Key ID="STR_INTER_RENTGH">
+            <Original>Rent ($350)</Original>
+            <English>Rent ($350)</English>
+            <Polish>Wynajmij ($350)</Polish>
+        </Key>
+    </Package>
+   
+    <Package name="Config_Licenses">
+        <Key ID="STR_LICEN_CLASSCD">
+            <Original>Class C driver's license</Original>
+            <English>Class C driver's license</English>
+            <Polish>Prawo jazdy kategorii C</Polish>
+        </Key>
+        <Key ID="STR_LICEN_COMMDRL">
+            <Original>Commercial driver's license</Original>
+            <English>Commercial driver's license</English>
+            <Polish>Prawo jazdy kierowcy zawodowego</Polish>
+        </Key>
+        <Key ID="STR_LICEN_BOATINGL">
+            <Original>Boating license</Original>
+            <English>Boating license</English>
+            <Polish>Licencja na łódź</Polish>
+        </Key>
+        <Key ID="STR_LICEN_CONCEALCP">
+            <Original>Concealed carry permit</Original>
+            <English>Concealed carry permit</English>
+            <Polish>Licencja na broń</Polish>
+        </Key>
+    </Package>
+ 
+   
+    <Package name="Config_NPC">
+        <Key ID="STR_NPC_WELCOMEMCF">
+            <Original>Hello there!&lt;br/&gt;&lt;br/&gt;Welcome to McFishers, how may I help you?</Original>
+            <English>Hello there!&lt;br/&gt;&lt;br/&gt;Welcome to McFishers, how may I help you?</English>
+            <Polish>Witaj!&lt;br/&gt;&lt;br/&gt;Witamy w McFishers, Jak mogę pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_WELCOMEMCF1">
+            <Original>1. Hello! I would like to start working at McFishers</Original>
+            <English>1. Hello! I would like to start working at McFishers</English>
+            <Polish>1. Witam! Chciałbym podjąć pracę w McFishers</Polish>
+        </Key>
+        <Key ID="STR_NPC_WELCOMEMCF2">
+            <Original>2. Ignore me, I'm just creeping around</Original>
+            <English>2. Ignore me, I'm just creeping around</English>
+            <Polish>2. Zignoruj mnie, tylko się rozglądam</Polish>
+        </Key>
+        <Key ID="STR_NPC_MCFWORK">
+            <Original>Great! We are always hiring.&lt;br/&gt;&lt;br/&gt;Are you sure you would like to work here?&lt;br/&gt;Your contract length will be atleast 1 month (1 hour).</Original>
+            <English>Great! We are always hiring.&lt;br/&gt;&lt;br/&gt;Are you sure you would like to work here?&lt;br/&gt;Your contract length will be atleast 1 month (1 hour).</English>
+            <Polish>Świetnie! Mamy wolne wakaty.&lt;br/&gt;&lt;br/&gt;Czy na pewno chcesz tu pracować?&lt;br/&gt;Minimalny czas twojego zatrudnienia to 1 miesiąc (1 godzina).</Polish>
+        </Key>
+        <Key ID="STR_NPC_MCFWORK1">
+            <Original>1. That sounds good, I will get started right away!</Original>
+            <English>1. That sounds good, I will get started right away!</English>
+            <Polish>1: Brzmi świetnie, zacznę od razu!</Polish>
+        </Key>
+        <Key ID="STR_NPC_MCFWORK2">
+            <Original>2. I think I changed my mind, thanks for the offer anyway.</Original>
+            <English>2. I think I changed my mind, thanks for the offer anyway.</English>
+            <Polish>2. Chyba zmieniam zdanie, dziękuję za twój czas.</Polish>
+        </Key>
+        <Key ID="STR_NPC_ALREADYWORKING">
+            <Original>You are already working here...</Original>
+            <English>You are already working here...</English>
+            <Polish>Pijany jesteś? Juz tu pracujesz...</Polish>
+        </Key>
+        <Key ID="STR_NPC_ALREADYWORKING1">
+            <Original>1. I was just joking! *laughs*</Original>
+            <English>1. I was just joking! *laughs*</English>
+            <Polish>1. Tylko sobie żartowałem! *śmiech*</Polish>
+        </Key>
+        <Key ID="STR_NPC_ALREADYWORKING2">
+            <Original>2. I would like to stop working here, I hate this place.</Original>
+            <English>2. I would like to stop working here, I hate this place.</English>
+            <Polish>2. Chciałbym rzucić tą pracę, śmierdzi tu spalonym olejem.</Polish>
+        </Key>
+        <Key ID="STR_NPC_MCFACCEPTED">
+            <Original>You are now a full-time mcFishers employee.&lt;br/&gt;&lt;br/&gt;Store your old clothes and come back to me for your uniform.&lt;br/&gt;&lt;br/&gt;Do I need to walk you through the basics?</Original>
+            <English>You are now a full-time mcFishers employee.&lt;br/&gt;&lt;br/&gt;Store your old clothes and come back to me for your uniform.&lt;br/&gt;&lt;br/&gt;Do I need to walk you through the basics?</English>
+            <Polish>Jesteś teraz pełnoprawnym pracownikiem McFishers&lt;br/&gt;&lt;br/&gt;Swoje robocze ubranie znajdziesz na ladzie.&lt;br/&gt;&lt;br/&gt;Czy wytłumaczyć Ci podstawy?</Polish>
+        </Key>
+        <Key ID="STR_NPC_MCFACCEPTED1">
+            <Original>1. Yes please.</Original>
+            <English>1. Yes please.</English>
+            <Polish>1. Tak, poproszę</Polish>
+        </Key>
+        <Key ID="STR_NPC_MCFACCEPTED2">
+            <Original>2. I've done this kind of work before. I'm good!</Original>
+            <English>2. I've done this kind of work before. I'm good!</English>
+            <Polish>2. Typie, jestem po studiach hotelarskich, nie trzeba!</Polish>
+        </Key>
+        <Key ID="STR_NPC_MCFTUTORIAL">
+            <Original>Alright, listen up.&lt;br/&gt;1. You can find ingredients in the kitchen.&lt;br/&gt;2. Use the grill to cook the burgers.&lt;br/&gt;3. The microphone can be used to talk to customers.</Original>
+            <English>Alright, listen up.&lt;br/&gt;1. You can find ingredients in the kitchen.&lt;br/&gt;2. Use the grill to cook the burgers.&lt;br/&gt;3. The microphone can be used to talk to customers.</English>
+            <Polish>Dobra, słuchaj.&lt;br/&gt;1.Składniki znajdziesz w kuchni.&lt;br/&gt;2. Używaj grilla aby smażyć burgery.&lt;br/&gt;3. Mikrofonu możesz używać do kontaktu z klientami.</Polish>
+        </Key>
+        <Key ID="STR_NPC_MCFTUTORIAL1">
+            <Original>1. Alright, got it!</Original>
+            <English>1. Alright, got it!</English>
+            <Polish>1. Dobrze, zrozumiałem!</Polish>
+        </Key>
+        <Key ID="STR_NPC_THINIT">
+            <Original>Hello there!&lt;br/&gt;&lt;br/&gt;Welcome to Taco Hell, how may I help you?</Original>
+            <English>Hello there!&lt;br/&gt;&lt;br/&gt;Welcome to Taco Hell, how may I help you?</English>
+            <Polish>Witaj!&lt;br/&gt;&lt;br/&gt;Witam w Taco Hell, w czym mogę pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_THINIT1">
+            <Original>1. Hello! I would like to start working at Taco Hell</Original>
+            <English>1. Hello! I would like to start working at Taco Hell</English>
+            <Polish>1. Witam! Chciałbym się zatrudnić w Taco Hell</Polish>
+        </Key>
+        <Key ID="STR_NPC_THINIT2">
+            <Original>2. Ignore me, I'm just creeping around</Original>
+            <English>2. Ignore me, I'm just creeping around</English>
+            <Polish>2. Zignoruj mnie, tylko się rozglądam</Polish>
+        </Key>
+        <Key ID="STR_NPC_THWORK">
+            <Original>Great! We are always hiring.&lt;br/&gt;&lt;br/&gt;Are you sure you would like to work here?&lt;br/&gt;Your contract length will be atleast 1 month (1 hour).</Original>
+            <English>Great! We are always hiring.&lt;br/&gt;&lt;br/&gt;Are you sure you would like to work here?&lt;br/&gt;Your contract length will be atleast 1 month (1 hour).</English>
+            <Polish>Wspaniale! Mamy wolne wakaty.&lt;br/&gt;&lt;br/&gt;Czy jesteś pewny, że chcesz tu pracować?&lt;br/&gt;Twój kontrakt będzie trwał przynajmniej miesiąc (1 godzina).</Polish>
+        </Key>
+        <Key ID="STR_NPC_THWORK1">
+            <Original>1. That sounds good, I will get started right away!</Original>
+            <English>1. That sounds good, I will get started right away!</English>
+            <Polish>1. To brzmi świetnie, zacznę od razu!</Polish>
+        </Key>
+        <Key ID="STR_NPC_THWORK2">
+            <Original>2. I think I changed my mind, thanks for the offer anyway.</Original>
+            <English>2. I think I changed my mind, thanks for the offer anyway.</English>
+            <Polish>2. Chyba zmieniłem zdanie, ale dziękuję za propozycję.</Polish>
+        </Key>
+        <Key ID="STR_NPC_THACCEPTED">
+            <Original>You are now a full-time Taco Hell employee.&lt;br/&gt;&lt;br/&gt;Store your old clothes and come back to me for your uniform.&lt;br/&gt;&lt;br/&gt;Do I need to walk you through the basics?</Original>
+            <English>You are now a full-time Taco Hell employee.&lt;br/&gt;&lt;br/&gt;Store your old clothes and come back to me for your uniform.&lt;br/&gt;&lt;br/&gt;Do I need to walk you through the basics?</English>
+            <Polish>Jesteś teraz pełnoprawnym pracownikiem Taco Hell.&lt;br/&gt;&lt;br/&gt;Swoje robocze ciuchy znajdziesz na ladzie.&lt;br/&gt;&lt;br/&gt;Czy wytłumaczyć Ci co i jak?</Polish>
+        </Key>
+        <Key ID="STR_NPC_THACCEPTED1">
+            <Original>1. Yes please.</Original>
+            <English>1. Yes please.</English>
+            <Polish>1. Tak, poproszę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_THACCEPTED2">
+            <Original>2. I've done this kind of work before. I'm good!</Original>
+            <English>2. I've done this kind of work before. I'm good!</English>
+            <Polish>2. Wykonywałem już taką pracę wcześniej, nie trzeba!</Polish>
+        </Key>
+        <Key ID="STR_NPC_THTUTORIAL">
+            <Original>Alright, listen up.&lt;br/&gt;1. You can find ingredients in the kitchen.&lt;br/&gt;2. Use the grill to cook the fish.&lt;br/&gt;3. The microphone can be used to talk to customers.</Original>
+            <English>Alright, listen up.&lt;br/&gt;1. You can find ingredients in the kitchen.&lt;br/&gt;2. Use the grill to cook the fish.&lt;br/&gt;3. The microphone can be used to talk to customers.</English>
+            <Polish>Dobra, posłuchaj.&lt;br/&gt;1. Składniki możesz znaleźć w kuchni.&lt;br/&gt;2. Używaj grilla do smażenia ryby.&lt;br/&gt;3. Za pomocą mikrofonu możesz porozumiewać się z klientami.</Polish>
+        </Key>
+        <Key ID="STR_NPC_THTUTORIAL1">
+            <Original>1. Alright, got it!</Original>
+            <English>1. Alright, got it!</English>
+            <Polish>1. Dobra, zrozumiałem!</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANINIT1">
+            <Original>1. Hello! I would like to become a fisherman!</Original>
+            <English>1. Hello! I would like to become a fisherman!</English>
+            <Polish>1. Witam! Chciałbym zostać rybakiem!</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANINIT2">
+            <Original>2. Just looking around, dont mind me.</Original>
+            <English>2. Just looking around, dont mind me.</English>
+            <Polish>2. Tylko się rozglądam, nie zawracaj sobie mną głowy.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANINIT3">
+            <Original>3. I would like to access the shop</Original>
+            <English>3. I would like to access the shop</English>
+            <Polish>3. Chciałbym zobaczyć co masz w sklepie.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANWORK">
+            <Original>Fishers island is always looking for more fisherman.&lt;br/&gt;&lt;br/&gt;McFishers has to keep getting their fish from somewhere *laughs*&lt;br/&gt;Are you sure you want to become a fisherman?</Original>
+            <English>Fishers island is always looking for more fisherman.&lt;br/&gt;&lt;br/&gt;McFishers has to keep getting their fish from somewhere *laughs*&lt;br/&gt;Are you sure you want to become a fisherman?</English>
+            <Polish>Wyspa Fishera zawsze poszukuje wędkarzy.&lt;br/&gt;&lt;br/&gt;McFishers skądś musi brać swoje ryby *śmiech*&lt;br/&gt;Czy jesteś zdecydowany by zostać rybakiem?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANWORK1">
+            <Original>1. Yes, let me get fishing already!</Original>
+            <English>1. Yes, let me get fishing already!</English>
+            <Polish>1. Tak, pozwól mi już łowić te ryby!</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANWORK2">
+            <Original>2. Actually, I dont think I want to become a fisherman.</Original>
+            <English>2. Actually, I dont think I want to become a fisherman.</English>
+            <Polish>2. W sumie, to myślę, że praca rybaka nie jest dla mnie</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANALREADY">
+            <Original>You are already working as a fisherman..</Original>
+            <English>You are already working as a fisherman..</English>
+            <Polish>Juz pracujesz jako rybak...</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANALREADY1">
+            <Original>1. I was just joking! *laughs*</Original>
+            <English>1. I was just joking! *laughs*</English>
+            <Polish>1. Tylko żartowałem! *śmiech*</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANALREADY2">
+            <Original>2. I would like to stop working here, I dont like fishing</Original>
+            <English>2. I would like to stop working here, I dont like fishing</English>
+            <Polish>2. Chciałbym przestać tu pracować, nie lubię wędkowania.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANACCEPTED">
+            <Original>You are now a fisherman!&lt;br/&gt;&lt;br/&gt;Do I need to walk you through the basics?</Original>
+            <English>You are now a fisherman!&lt;br/&gt;&lt;br/&gt;Do I need to walk you through the basics?</English>
+            <Polish>Jesteś teraz wędkarzem!&lt;br/&gt;&lt;br/&gt;Czy pokazać Ci podstawy tej pracy?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANACCEPTED1">
+            <Original>1. Yes please.</Original>
+            <English>1. Yes please.</English>
+            <Polish>1. Tak, poproszę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANACCEPTED2">
+            <Original>2. I've done this kind of work before. I'm good!</Original>
+            <English>2. I've done this kind of work before. I'm good!</English>
+            <Polish>2. Już wykonywałem taką pracę, nie trzeba!</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANTUTORIAL">
+            <Original>Alright, listen carefully&lt;br/&gt;1. Buy a net and bucket from my shop&lt;br/&gt;2. Deploy the net when you are in the water&lt;br/&gt;3. Wait for a while, then retrieve the net</Original>
+            <English>Alright, listen carefully&lt;br/&gt;1. Buy a net and bucket from my shop&lt;br/&gt;2. Deploy the net when you are in the water&lt;br/&gt;3. Wait for a while, then retrieve the net</English>
+            <Polish>Dobra, słuchaj uważnie&lt;br/&gt;1. Kup sieć i wiadro w moim sklepie&lt;br/&gt;2. Zarzuć sieć jak wejdziesz do wody&lt;br/&gt;3. Poczekaj chwilę, po czym zwiń sieć</Polish>
+        </Key>
+        <Key ID="STR_NPC_FISHMANTUTORIAL1">
+            <Original>1. Alright, got it!</Original>
+            <English>1. Alright, got it!</English>
+            <Polish>1. Dobra, zrozumiałem!</Polish>
+        </Key>
+        <Key ID="STR_NPC_BANKINIT">
+            <Original>Welcome to the Bank Of Freedom.&lt;br/&gt;&lt;br/&gt;How may I help you?</Original>
+            <English>Welcome to the Bank Of Freedom.&lt;br/&gt;&lt;br/&gt;How may I help you?</English>
+            <Polish>Witamy w Banku Wolności.&lt;br/&gt;&lt;br/&gt;W czym mogę pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_BANKINIT1">
+            <Original>1. I would like to sign my paycheck</Original>
+            <English>1. I would like to sign my paycheck</English>
+            <Polish>1. Chciałbym odebrać swoją wypłatę</Polish>
+        </Key>
+        <Key ID="STR_NPC_BANKINIT2">
+            <Original>2. I would like to check my bank account</Original>
+            <English>2. I would like to check my bank account</English>
+            <Polish>2. Chciałbym sprawdzić stan swojego konta</Polish>
+        </Key>
+        <Key ID="STR_NPC_BANKPCREF">
+            <Original>It doesn't seem there is a check here for you to sign&lt;br/&gt;</Original>
+            <English>It doesn't seem there is a check here for you to sign&lt;br/&gt;</English>
+            <Polish>Wygląda na to, że Twoja wypłata jeszcze nie przyszła&lt;br/&gt;</Polish>
+        </Key>
+        <Key ID="STR_NPC_BANKPCREF1">
+            <Original>1. That's weird, alright. I'll come back later then.</Original>
+            <English>1. That's weird, alright. I'll come back later then.</English>
+            <Polish>1. To dziwne, no dobrze. Sprawdzę później</Polish>
+        </Key>
+        <Key ID="STR_NPC_BANKPCACC">
+            <Original>I found your check.&lt;br/&gt;Please sign it and I'll make sure the amount is deposited into your bank account.</Original>
+            <English>I found your check.&lt;br/&gt;Please sign it and I'll make sure the amount is deposited into your bank account.</English>
+            <Polish>Przyszła Twoja wypłata.&lt;br/&gt;Proszę, podpisz tutaj, a ja upewnię się że trafi ona na Twoje konto.</Polish>
+        </Key>
+        <Key ID="STR_NPC_BANKPCACC1">
+            <Original>1. *sign paycheck* There you go, have a nice day!</Original>
+            <English>1. *sign paycheck* There you go, have a nice day!</English>
+            <Polish>1. *Podpisuję świstek* Proszę, miłego dnia!</Polish>
+        </Key>
+        <Key ID="STR_NPC_BANKPCACC2">
+            <Original>2. I'll sign for my check later</Original>
+            <English>2. I'll sign for my check later</English>
+            <Polish>2. Później to podpiszę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_POLICEINIT">
+            <Original>Howdy!&lt;br/&gt;&lt;br/&gt;How can I help you?</Original>
+            <English>Howdy!&lt;br/&gt;&lt;br/&gt;How can I help you?</English>
+            <Polish>Pozdrowionka!&lt;br/&gt;&lt;br/&gt;W czym mogę Ci pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_POLICEINIT1">
+            <Original>1. Howdy! how do I become a sheriff?</Original>
+            <English>1. Howdy! how do I become a sheriff?</English>
+            <Polish>1. Witaj! Jak mogę zostać szeryfem?</Polish>
+        </Key>
+        <Key ID="STR_NPC_POLICEINIT2">
+            <Original>2. Hello sir, I have a crime to report</Original>
+            <English>2. Hello sir, I have a crime to report</English>
+            <Polish>2. Witam pana, chciałbym zgłosić przestępstwo.</Polish>
+        </Key>
+        <Key ID="STR_NPC_POLICEINIT3">
+            <Original>3. Howdy Sheriff! I'm here to start my shift.</Original>
+            <English>3. Howdy Sheriff! I'm here to start my shift.</English>
+            <Polish>3. Witaj Szeryfie! Przyszedłem by zacząć swoją zmianę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_WEBSITEMOREINFO">
+            <Original>You can find more info on our website:&lt;br/&gt;http://www.FISD.com/</Original>
+            <English>You can find more info on our website:&lt;br/&gt;http://www.FISD.com/</English>
+            <Polish>Więcej informacji możesz poszukać na naszej stronie:&lt;br/&gt;http://www.FISD.com/</Polish>
+        </Key>
+        <Key ID="STR_NPC_POLICEREPCRIME">
+            <Original>You can report crimes by calling 911</Original>
+            <English>You can report crimes by calling 911</English>
+            <Polish>Możesz zgłaszać przestępstwa dzwoniąc pod 911</Polish>
+        </Key>
+        <Key ID="STR_NPC_ALRIGHTTNX">
+            <Original>1. Alright, thank you.</Original>
+            <English>1. Alright, thank you.</English>
+            <Polish>1. Dobrze, dziękuję.</Polish>
+        </Key>
+        <Key ID="STR_NPC_SORRYILEAVE">
+            <Original>1. I'm sorry! I'll leave.</Original>
+            <English>1. I'm sorry! I'll leave.</English>
+            <Polish>1. Przepraszam! Już wychodzę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_POLICEDENIED">
+            <Original>You don't seem to be working here!&lt;br/&gt;Impersonating a sheriff is a crime!</Original>
+            <English>You don't seem to be working here!&lt;br/&gt;Impersonating a sheriff is a crime!</English>
+            <Polish>Nie jesteś szeryfem!&lt;br/&gt;Podszywanie się pod szeryfa to poważne przestępstwo!</Polish>
+        </Key>
+        <Key ID="STR_NPC_WORK">
+            <Original>Welcome back sheriff&lt;br/&gt;Are you sure you are ready to start your shift?</Original>
+            <English>Welcome back sheriff&lt;br/&gt;Are you sure you are ready to start your shift?</English>
+            <Polish>Witaj ponownie Szeryfie&lt;br/&gt;Czy jesteś gotowy, aby zacząć swoją zmianę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_WORK1">
+            <Original>1. I'm ready, lets bust some criminals.</Original>
+            <English>1. I'm ready, lets bust some criminals.</English>
+            <Polish>1. Jestem gotowy, złapmy kilku przestępców!</Polish>
+        </Key>
+        <Key ID="STR_NPC_WORK2">
+            <Original>2. Let me grab some donuts and I'll be back</Original>
+            <English>2. Let me grab some donuts and I'll be back</English>
+            <Polish>2. Skoczę po pączki i zaraz wrócę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_ALREADY">
+            <Original>You are already on-duty, do you want to go off-duty?</Original>
+            <English>You are already on-duty, do you want to go off-duty?</English>
+            <Polish>Jesteś już na służbie, czy chcesz opuścić służbę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_ALREADY1">
+            <Original>1. Yes please, It's time to go home.</Original>
+            <English>1. Yes please, It's time to go home.</English>
+            <Polish>1. Tak proszę, czas iść do domu.</Polish>
+        </Key>
+        <Key ID="STR_NPC_ALREADY2">
+            <Original>2. Actually, nevermind.</Original>
+            <English>2. Actually, nevermind.</English>
+            <Polish>2. W sumie to nieważne.</Polish>
+        </Key>
+        <Key ID="STR_NPC_ACCEPTED">
+            <Original>You are now on-duty. Here is your radio.&lt;br/&gt;Make sure to grab your gear&lt;br/&gt;Good luck out there sheriff</Original>
+            <English>You are now on-duty. Here is your radio.&lt;br/&gt;Make sure to grab your gear&lt;br/&gt;Good luck out there sheriff</English>
+            <Polish>Jesteś teraz na służbie. Oto Twoje radio.&lt;br/&gt;Upewnij się że masz całe wyposażenie&lt;br/&gt;Powodzenia Szeryfie</Polish>
+        </Key>
+        <Key ID="STR_NPC_ACCEPTED1">
+            <Original>1. Thanks, I'll catch you later.</Original>
+            <English>1. Thanks, I'll catch you later.</English>
+            <Polish>1. Dzięki, odezwę się później.</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHINIT">
+            <Original>Howdy!&lt;br/&gt;&lt;br/&gt;How can I help you?</Original>
+            <English>Howdy!&lt;br/&gt;&lt;br/&gt;How can I help you?</English>
+            <Polish>Witaj!&lt;br/&gt;&lt;br/&gt;W czym mogę pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHINIT1">
+            <Original>1. Howdy! How do I become a dispatch?</Original>
+            <English>1. Howdy! How do I become a dispatch?</English>
+            <Polish>1. Witaj! W jaki sposób mogę zostać pracownikiem centrali?</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHINIT2">
+            <Original>2. Hello sir, I have a crime to report</Original>
+            <English>2. Hello sir, I have a crime to report</English>
+            <Polish>2. Witam pana, chciałbym zgłosić przestępstwo.</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHINIT3">
+            <Original>3. Howdy Sheriff! I'm here to start my dispatching shift.</Original>
+            <English>3. Howdy Sheriff! I'm here to start my dispatching shift.</English>
+            <Polish>Witam szeryfie! Chciałbym zacząć swoją zmianę na centrali.</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHDENIED">
+            <Original>You don't seem to be working here!</Original>
+            <English>You don't seem to be working here!</English>
+            <Polish>Ale Ty tu nie pracujesz!</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHWORK">
+            <Original>Welcome back dispatcher&lt;br/&gt;Are you sure you are ready to start your shift?</Original>
+            <English>Welcome back dispatcher&lt;br/&gt;Are you sure you are ready to start your shift?</English>
+            <Polish>Witaj ponownie!&lt;br/&gt;Czy jesteś pewny że chcesz zacząć swoją zmianę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHWORK1">
+            <Original>1. I'm ready</Original>
+            <English>1. I'm ready</English>
+            <Polish>1. Jestem gotowy.</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHWORK2">
+            <Original>2. Let me grab some donuts and I'll be back</Original>
+            <English>2. Let me grab some donuts and I'll be back</English>
+            <Polish>2. Skoczę tylko po pączki i zaraz wracam.</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHALREADY">
+            <Original>You are already on-duty, do you want to go off-duty?</Original>
+            <English>You are already on-duty, do you want to go off-duty?</English>
+            <Polish>Już jesteś na służbie, czy chcesz zejść ze służby?</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHALREADY1">
+            <Original>1. Yes please, It's time to go home.</Original>
+            <English>1. Yes please, It's time to go home.</English>
+            <Polish>1. Tak proszę, już czas iść do domu.</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHALREADY2">
+            <Original>2. Actually, nevermind.</Original>
+            <English>2. Actually, nevermind.</English>
+            <Polish>2. W sumie to nieważne.</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHALDUTY">
+            <Original>You are now on-duty. Prepare for 911 calls.&lt;br/&gt;Make sure you stay calm and collective&lt;br/&gt;Good luck dispatcher!</Original>
+            <English>You are now on-duty. Prepare for 911 calls.&lt;br/&gt;Make sure you stay calm and collective&lt;br/&gt;Good luck dispatcher!</English>
+            <Polish>You Jesteś teraz na służbie, przygotuj się na odbieranie telefonów.&lt;br/&gt;Bądź spokojny i uważaj na detale&lt;br/&gt;Powodzenia zero zero!</Polish>
+        </Key>
+        <Key ID="STR_NPC_DISPATCHALDUTY1">
+            <Original>1. Thanks, I'll catch you later.</Original>
+            <English>1. Thanks, I'll catch you later.</English>
+            <Polish>1. Dzięki, pogadamy później.</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGINIT">
+            <Original>Hello.&lt;br/&gt;&lt;br/&gt;How can I help you?</Original>
+            <English>Hello.&lt;br/&gt;&lt;br/&gt;How can I help you?</English>
+            <Polish>Witam.&lt;br/&gt;&lt;br/&gt;W czym mogę pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGINIT1">
+            <Original>1. Hello! I'm here to start my shift.</Original>
+            <English>1. Hello! I'm here to start my shift.</English>
+            <Polish>1. Witam, przyszedłem zacząć swoją zmianę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGDENIED">
+            <Original>You don't seem to be working here!&lt;br/&gt;Impersonating a coast guard officer is a crime!</Original>
+            <English>You don't seem to be working here!&lt;br/&gt;Impersonating a coast guard officer is a crime!</English>
+            <Polish>Ale Ty tu nie pracujesz!&lt;br/&gt;Podszywanie się pod straż przybrzeżną to poważne przestępstwo!</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGWORK">
+            <Original>Welcome back!&lt;br/&gt;Are you sure you are ready to start your shift?</Original>
+            <English>Welcome back!&lt;br/&gt;Are you sure you are ready to start your shift?</English>
+            <Polish>Witaj ponownie!&lt;br/&gt;Czy jesteś pewny że chcesz zacząć swoją zmianę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGWORK1">
+            <Original>1. I'm ready, lets bust some smugglers.</Original>
+            <English>1. I'm ready, lets bust some smugglers.</English>
+            <Polish>1. Jestem gotów! Dorwijmy kilku przemytników!</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGWORK2">
+            <Original>2. I changed my mind</Original>
+            <English>2. I changed my mind</English>
+            <Polish>2. Zmieniłem zdanie.</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGALREADY">
+            <Original>You are already on-duty, do you want to go off-duty?</Original>
+            <English>You are already on-duty, do you want to go off-duty?</English>
+            <Polish>Juz jesteś na służbie, czy chcesz z niej zejść?</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGALREADY1">
+            <Original>1. Yes please, It's time to go home.</Original>
+            <English>1. Yes please, It's time to go home.</English>
+            <Polish>1. Tak, poproszę. Czas iść do domu.</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGALREADY2">
+            <Original>2. Actually, nevermind.</Original>
+            <English>2. Actually, nevermind.</English>
+            <Polish>2. W sumie to nieważne.</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGALACCEPTED">
+            <Original>You are now on-duty. Here is your radio.&lt;br/&gt;Make sure to grab your gear&lt;br/&gt;Good luck out there.</Original>
+            <English>You are now on-duty. Here is your radio.&lt;br/&gt;Make sure to grab your gear&lt;br/&gt;Good luck out there.</English>
+            <Polish>Jesteś teraz na służbie, oto Twoje radio.&lt;br/&gt;Upewnij się że masz cały swój sprzęt&lt;br/&gt;Powodzenia!</Polish>
+        </Key>
+        <Key ID="STR_NPC_USCGALACCEPTED1">
+            <Original>1. Thanks, I'll catch you later.</Original>
+            <English>1. Thanks, I'll catch you later.</English>
+            <Polish>1. Dzięki, odezwę się później.</Polish>
+        </Key>
+        <Key ID="STR_NPC_HELLOWHOWHELP">
+            <Original>Hello there!&lt;br/&gt;&lt;br/&gt;How can I help you?</Original>
+            <English>Hello there!&lt;br/&gt;&lt;br/&gt;How can I help you?</English>
+            <Polish>Witaj!!&lt;br/&gt;&lt;br/&gt;W czym mogę pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_IMREADY">
+            <Original>1. I'm ready.</Original>
+            <English>1. I'm ready.</English>
+            <Polish>Jestem gotowy.</Polish>
+        </Key>
+        <Key ID="STR_NPC_BEBACKLATER">
+            <Original>2. I'll be back</Original>
+            <English>2. I'll be back</English>
+            <Polish>2. Niebawem wrócę</Polish>
+        </Key>
+        <Key ID="STR_NPC_STOPWORKINGHER">
+            <Original>1. Yes I would like to stop working here</Original>
+            <English>1. Yes I would like to stop working here</English>
+            <Polish>1. Tak, chciałbym zakończyć tu pracę</Polish>
+        </Key>
+        <Key ID="STR_NPC_AIGHTTNX">
+            <Original>1. Alright, thank you!</Original>
+            <English>1. Alright, thank you!</English>
+            <Polish>1. Dobrze, dziękuję!</Polish>
+        </Key>
+        <Key ID="STR_NPC_LIKEJOBNVM">
+            <Original>2. Actually, I like this job, nevermind.</Original>
+            <English>2. Actually, I like this job, nevermind.</English>
+            <Polish>2. Właściwie, to podoba mi się ta praca, nieważne.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRINIT">
+            <Original>Hello!&lt;br/&gt;How can I help you?</Original>
+            <English>Hello!&lt;br/&gt;How can I help you?</English>
+            <Polish>Witaj!&lt;br/&gt;W czym mogę pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRINIT1">
+            <Original>1. I don't feel well, can you check me out?</Original>
+            <English>1. I don't feel well, can you check me out?</English>
+            <Polish>1. Nie czuję się zbyt dobrze, możesz mnie zbadać?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRINIT2">
+            <Original>2. How do I become part of the FIFR?</Original>
+            <English>2. How do I become part of the FIFR?</English>
+            <Polish>2. W jaki sposób mogę zostać członkiem FIFR?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRINIT3">
+            <Original>3. Hello colleague, I'm here to start my shift.</Original>
+            <English>3. Hello colleague, I'm here to start my shift.</English>
+            <Polish>3. Witam kolege, jestem tu aby rozpocząć swoją zmianę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRHEALD">
+            <Original>You seem fine&lt;br/&gt;You don't need medical attention</Original>
+            <English>You seem fine&lt;br/&gt;You don't need medical attention</English>
+            <Polish>Jesteś zdrowy&lt;br/&gt;Nie potrzebujesz pomocy lekarza.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRHEALD1">
+            <Original>1. Alright then, thanks anyway.</Original>
+            <English>1. Alright then, thanks anyway.</English>
+            <Polish>1. Dobrze, dziękuję mimo to.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRHOWTO">
+            <Original>You can find more info on our website:&lt;br/&gt;http://www.FIFR.com/</Original>
+            <English>You can find more info on our website:&lt;br/&gt;http://www.FIFR.com/</English>
+            <Polish>Więcej informacji możecie znaleźć na naszej stronie:&lt;br/&gt;http://www.FIFR.com/</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRDEN">
+            <Original>You don't seem to be working here!&lt;br/&gt;Impersonating as an FIFR is a crime!</Original>
+            <English>You don't seem to be working here!&lt;br/&gt;Impersonating as an FIFR is a crime!</English>
+            <Polish>Nie jesteś tu zatrudniony!&lt;br/&gt;Podszywanie się pod pracownika FIFR jest poważnym przesępstwem!</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRDEN1">
+            <Original>1. I'm sorry! I'll leave</Original>
+            <English>1. I'm sorry! I'll leave</English>
+            <Polish>1. Przepraszam! Już wychodzę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRWORK">
+            <Original>Welcome back&lt;br/&gt;Are you ready to start your shift today?</Original>
+            <English>Welcome back&lt;br/&gt;Are you ready to start your shift today?</English>
+            <Polish>Witaj ponownie&lt;br/&gt;Gotów aby zacząć swą zmianę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRWORK1">
+            <Original>1. I'm ready, time to save some lives.</Original>
+            <English>1. I'm ready, time to save some lives.</English>
+            <Polish>1. Jestem gotowy, czas ratować życia!</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRWORK2">
+            <Original>2. I'm not ready yet.</Original>
+            <English>2. I'm not ready yet.</English>
+            <Polish>2. Nie jestem jeszcze gotowy.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRALREADY">
+            <Original>You are already on-duty, do you want to go off-duty?</Original>
+            <English>You are already on-duty, do you want to go off-duty?</English>
+            <Polish>Już jesteś na służbie, czy chcesz ją zakończyć?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRALREADY1">
+            <Original>1. Yes please, it's time to go home.</Original>
+            <English>1. Yes please, it's time to go home.</English>
+            <Polish>1. Tak proszę, już czas iść do domu.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRALREADY2">
+            <Original>2. Actually, nevermind.</Original>
+            <English>2. Actually, nevermind.</English>
+            <Polish>2. W sumie, to nieważne.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRACC">
+            <Original>You are now on-duty. Here is your radio.&lt;br/&gt;Make sure to grab your gear&lt;br/&gt;Good luck out there</Original>
+            <English>You are now on-duty. Here is your radio.&lt;br/&gt;Make sure to grab your gear&lt;br/&gt;Good luck out there</English>
+            <Polish>Zacząłeś właśnie swoją służbę, oto Twoje radio&lt;br/&gt;Upewnij się że masz cały swój sprzęt&lt;br/&gt;Powodzenia!</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRACC1">
+            <Original>1. Thanks, I'll catch you later.</Original>
+            <English>1. Thanks, I'll catch you later.</English>
+            <Polish>1. Dzięki, pogadamy później.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRHEAL">
+            <Original>We will take a look at you for $100&lt;br/&gt;Are you sure you want to pay this?</Original>
+            <English>We will take a look at you for $100&lt;br/&gt;Are you sure you want to pay this?</English>
+            <Polish>Zbadamy Cię za 100$&lt;br/&gt;Jesteś pewien że chcesz zapłacić za tą procedurę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRHEAL1">
+            <Original>1. I'm sure, I'm really not feeling well</Original>
+            <English>1. I'm sure, I'm really not feeling well</English>
+            <Polish>1. Jestem pewny, nie czuję się zbyt dobrze.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRHEAL2">
+            <Original>2. That is too expensive, sorry.</Original>
+            <English>2. That is too expensive, sorry.</English>
+            <Polish>2. To za drogo, nie dziękuję.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRDONE">
+            <Original>I gave you some medicine that'll make you feel better&lt;br/&gt;You can always come back for a check-up.</Original>
+            <English>I gave you some medicine that'll make you feel better&lt;br/&gt;You can always come back for a check-up.</English>
+            <Polish>Dałem Ci tabletki które sprawią, że poczujesz się lepiej&lt;br/&gt;Zawsze możesz przyjść na kontrolę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FIFRDONE1">
+            <Original>1. Alright, thank you sir!</Original>
+            <English>1. Alright, thank you sir!</English>
+            <Polish>1. Dobrze, dziękuję panu!</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWINIT">
+            <Original>Hello!&lt;br/&gt;How can I help you?</Original>
+            <English>Hello!&lt;br/&gt;How can I help you?</English>
+            <Polish>Witam!&lt;br/&gt;Mogę w czymś pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWINIT1">
+            <Original>1. Hello there, I would like to become an roadworker and maintain the island!</Original>
+            <English>1. Hello there, I would like to become an roadworker and maintain the island!</English>
+            <Polish>1. Witam, chciałbym zatrudnić się jako drogowiec i dbać o wyspę!</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWINIT2">
+            <Original>2. Nothing, bye</Original>
+            <English>2. Nothing, bye</English>
+            <Polish>2. Nic, do widzenia</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWWORK">
+            <Original>Sure, we are always looking for people to help out&lt;br/&gt;&lt;br/&gt;Are you sure you would like to become a roadworker?</Original>
+            <English>Sure, we are always looking for people to help out&lt;br/&gt;&lt;br/&gt;Are you sure you would like to become a roadworker?</English>
+            <Polish>Jasne, zawsze zatrudniamy profesjonalistów&lt;br/&gt;&lt;br/&gt;Czy jesteś pewien że chcesz pracować jako drogowiec?</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWWORK1">
+            <Original>1. Yes, I'm sure!</Original>
+            <English>1. Yes, I'm sure!</English>
+            <Polish>1. Tak, jestem pewien.</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWWORK2">
+            <Original>2. No, I changed my mind</Original>
+            <English>2. No, I changed my mind</English>
+            <Polish>2. Nie, zmieniłem zdanie.</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWALR">
+            <Original>You are already working as a roadworker&lt;br/&gt;Would you like to stop working here?</Original>
+            <English>You are already working as a roadworker&lt;br/&gt;Would you like to stop working here?</English>
+            <Polish>Pracujesz już jako drogowiec&lt;br/&gt;Czy chciałbyś zakończyć pracę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWACC">
+            <Original>You are now a roadworker&lt;br/&gt;Do I need to explain the basics of towing vehicles?</Original>
+            <English>You are now a roadworker&lt;br/&gt;Do I need to explain the basics of towing vehicles?</English>
+            <Polish>Jesteś teraz drogowcem&lt;br/&gt;Czy wytłumaczyć Ci podstawy holowania pojazdów?</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWACC1">
+            <Original>1. Yes please</Original>
+            <English>1. Yes please</English>
+            <Polish>1. Tak, poproszę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWACC2">
+            <Original>2. No, I'm good</Original>
+            <English>2. No, I'm good</English>
+            <Polish>2. Nie, dziękuję.</Polish>
+        </Key>
+        <Key ID="STR_NPC_ROADWHOWTO">
+            <Original>Alright, it's really easy&lt;br/&gt;&lt;br/&gt;1. You will receive a message when cars are marked for impound, use the map to see where&lt;br/&gt;2. Tow the vehicles back here and earn a reward!</Original>
+            <English>Alright, it's really easy&lt;br/&gt;&lt;br/&gt;1. You will receive a message when cars are marked for impound, use the map to see where&lt;br/&gt;2. Tow the vehicles back here and earn a reward!</English>
+            <Polish>Dobrze, to bardzo proste&lt;br/&gt;&lt;br/&gt;1. Dostaniesz wiadomość które auta trzeba odholować&lt;br/&gt;2. Odholuj te auta na nasz parking a dostaniesz premię.</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECINIT">
+            <Original>Hello!&lt;br/&gt;How can I help you?</Original>
+            <English>Hello!&lt;br/&gt;How can I help you?</English>
+            <Polish>Witam&lt;br/&gt;W czym mogę pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECINIT1">
+            <Original>1. Hello there, I would like to become an oil recoverer and pump up the oil!</Original>
+            <English>1. Hello there, I would like to become an oil recoverer and pump up the oil!</English>
+            <Polish>1. Witam!, chciałbym zatrudnić się jako górnik i wydobywać olej!</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECINIT2">
+            <Original>2. Nothing, bye</Original>
+            <English>2. Nothing, bye</English>
+            <Polish>2. Nieistotne, do widzenia.</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECWORK">
+            <Original>Sure, we are always looking for people to help supply us with crude oil!&lt;br/&gt;&lt;br/&gt;Are you sure you would like to become an oil recoverer?</Original>
+            <English>Sure, we are always looking for people to help supply us with crude oil!&lt;br/&gt;&lt;br/&gt;Are you sure you would like to become an oil recoverer?</English>
+            <Polish>Jasne! Zawsze potrzebujemy więcej górników&lt;br/&gt;&lt;br/&gt;Jesteś pewien że chcesz zostać górnikiem?</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECWORK1">
+            <Original>Yes, I'm sure!</Original>
+            <English>Yes, I'm sure!</English>
+            <Polish>Tak, jestem pewny.</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECWORK2">
+            <Original>No, I changed my mind</Original>
+            <English>No, I changed my mind</English>
+            <Polish>Nie, jednak zmieniłem zdanie.</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECALR">
+            <Original>You are already working as an oil recoverer&lt;br/&gt;Would you like to stop working here?</Original>
+            <English>You are already working as an oil recoverer&lt;br/&gt;Would you like to stop working here?</English>
+            <Polish>Już pracujesz jako górnik&lt;br/&gt;Czy chcesz zakończyć pracę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECACC">
+            <Original>You are now an oil recoverer&lt;br/&gt;Do I need to explain the basics of oil recovery?</Original>
+            <English>You are now an oil recoverer&lt;br/&gt;Do I need to explain the basics of oil recovery?</English>
+            <Polish>Jesteś teraz górnikiem&lt;br/&gt;Czy wyjaśnić Ci jak wydobywać olej??</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECACC1">
+            <Original>1. Yes please</Original>
+            <English>1. Yes please</English>
+            <Polish>1. Tak, poproszę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECACC2">
+            <Original>2. No, I'm good</Original>
+            <English>2. No, I'm good</English>
+            <Polish>2. Nie, nie trzeba.</Polish>
+        </Key>
+        <Key ID="STR_NPC_OILRECHOWTO">
+            <Original>Alright.&lt;br/&gt;&lt;br/&gt;1. Find a wildcatter who can find a suitable area for oil extraction&lt;br/&gt;2. Have the wildcatter drill a hole&lt;br/&gt;3. Connect a jack pump and start it up</Original>
+            <English>Alright.&lt;br/&gt;&lt;br/&gt;1. Find a wildcatter who can find a suitable area for oil extraction&lt;br/&gt;2. Have the wildcatter drill a hole&lt;br/&gt;3. Connect a jack pump and start it up</English>
+            <Polish>Dobrze.&lt;br/&gt;&lt;br/&gt;1. znajdź poszukiwacza oleju, który znajdzie złoże&lt;br/&gt;2. Poproś poszukiwacza, aby wywiercił dziurę&lt;br/&gt;3. Podłącz, a następnie uruchom pompę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMINIT">
+            <Original>Hello!&lt;br/&gt;How can I help you?</Original>
+            <English>Hello!&lt;br/&gt;How can I help you?</English>
+            <Polish>Witam!&lt;br/&gt;Mogę w czymś pomóc?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMINIT1">
+            <Original>1. Hello there, I would like to become a farmer and grow crops!</Original>
+            <English>1. Hello there, I would like to become a farmer and grow crops!</English>
+            <Polish>1. Witaj! Chciałbym zostać farmerem i pracować na roli.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMINIT2">
+            <Original>2. Nothing, bye</Original>
+            <English>2. Nothing, bye</English>
+            <Polish>2. Nieważne, do widzenia.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMWORK">
+            <Original>Sure, we are always looking for people to help out&lt;br/&gt;&lt;br/&gt;Are you sure you would like to become a farmer?</Original>
+            <English>Sure, we are always looking for people to help out&lt;br/&gt;&lt;br/&gt;Are you sure you would like to become a farmer?</English>
+            <Polish>Jasne, zawsze szukamy ludzi do pomocy&lt;br/&gt;&lt;br/&gt;Czy jesteś pewien, że chcesz zostać rolnikiem?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMWORK1">
+            <Original>1. Yes, I'm sure!</Original>
+            <English>1. Yes, I'm sure!</English>
+            <Polish>1. Tak, jestem pewny.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMWORK2">
+            <Original>2. No, I changed my mind</Original>
+            <English>2. No, I changed my mind</English>
+            <Polish>2. Nie, rozmyśliłem się.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMALR">
+            <Original>You are already working as a farmer&lt;br/&gt;Would you like to stop working here?</Original>
+            <English>You are already working as a farmer&lt;br/&gt;Would you like to stop working here?</English>
+            <Polish>Pracujesz już jako farmer&lt;br/&gt;Czy chciałbyś zakończyć swoją pracę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMACC">
+            <Original>You are now a farmer&lt;br/&gt;Do I need to explain the basics of farming?</Original>
+            <English>You are now a farmer&lt;br/&gt;Do I need to explain the basics of farming?</English>
+            <Polish>Jesteś teraz rolnikiem&lt;br/&gt;Czy wytłumaczyć Ci podstawy rolnictwa?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMACC1">
+            <Original>1. Yes please</Original>
+            <English>1. Yes please</English>
+            <Polish>1. Tak, poproszę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMACC2">
+            <Original>2. No, I'm good</Original>
+            <English>2. No, I'm good</English>
+            <Polish>2. Nie, wszystko już wiem.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FARMHOWTO">
+            <Original>Alright, it's really easy&lt;br/&gt;&lt;br/&gt;1. Find seeds in this field&lt;br/&gt;2. Plant the seeds in the field&lt;br/&gt;3. Harvest them when they are done growing and profit</Original>
+            <English>Alright, it's really easy&lt;br/&gt;&lt;br/&gt;1. Find seeds in this field&lt;br/&gt;2. Plant the seeds in the field&lt;br/&gt;3. Harvest them when they are done growing and profit</English>
+            <Polish>Dobrze, to bardzo proste&lt;br/&gt;&lt;br/&gt;1. Znajdź nasiona na polu&lt;br/&gt;2. Posadź nasiona na polu&lt;br/&gt;3. Zbierz plony kiedy są gotowe. </Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATINIT">
+            <Original>Hello!&lt;br/&gt;How can I help you?</Original>
+            <English>Hello!&lt;br/&gt;How can I help you?</English>
+            <Polish>Cześć!&lt;br/&gt;Potrzebujesz czegoś?</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATINIT1">
+            <Original>1. Hello there, I would like to become an wildcat and find oil!</Original>
+            <English>1. Hello there, I would like to become an wildcat and find oil!</English>
+            <Polish>1. Witam, chciałbym zostać poszukiwaczem oleju.</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATINIT2">
+            <Original>2. Nothing, bye</Original>
+            <English>2. Nothing, bye</English>
+            <Polish>2. Nie, niczego nie potrzebuję.</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATWORK">
+            <Original>Sure, we are always looking for people to help and find and drill for oil!&lt;br/&gt;&lt;br/&gt;Are you sure you would like to become a wildcat?</Original>
+            <English>Sure, we are always looking for people to help and find and drill for oil!&lt;br/&gt;&lt;br/&gt;Are you sure you would like to become a wildcat?</English>
+            <Polish>Jasne, kolejny poszukiwacz oleju zawsze się przyda&lt;br/&gt;&lt;br/&gt;Czy jesteś gotowy aby zostać poszukiwaczem oleju?</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATWORK1">
+            <Original>1. Yes, I'm sure!</Original>
+            <English>1. Yes, I'm sure!</English>
+            <Polish>1. Tak, jestem gotowy!</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATWORK2">
+            <Original>2. No, I changed my mind</Original>
+            <English>2. No, I changed my mind</English>
+            <Polish>2. Nie, rozmyśliłem się.</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATALR">
+            <Original>You are already working as a wildcat&lt;br/&gt;Would you like to stop working here?</Original>
+            <English>You are already working as a wildcat&lt;br/&gt;Would you like to stop working here?</English>
+            <Polish>Już pracujesz jako poszukiwacz oleju&lt;br/&gt;Czy chciałbyś przestać tu pracować?</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATACC">
+            <Original>You are now an wildcat!&lt;br/&gt;Do I need to explain the basics of wildcatting?</Original>
+            <English>You are now an wildcat!&lt;br/&gt;Do I need to explain the basics of wildcatting?</English>
+            <Polish>Jesteś teraz poszukiwaczem oleju&lt;br/&gt;Czy wytłumaczyć Ci jak szukać oleju?</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATACC1">
+            <Original>1. Yes please</Original>
+            <English>1. Yes please</English>
+            <Polish>1. Tak, poproszę.</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATACC2">
+            <Original>2. No, I'm good</Original>
+            <English>2. No, I'm good.</English>
+            <Polish>Nie, wszystko już wiem</Polish>
+        </Key>
+        <Key ID="STR_NPC_WILDCATHOWTO">
+            <Original>Alright.&lt;br/&gt;1. Create a drill trailer and connect it to your vehicle&lt;br/&gt;2. Prospect the land and look for resources&lt;br/&gt;3. An oil recoverer can now connect a pump jack</Original>
+            <English>Alright.&lt;br/&gt;1. Create a drill trailer and connect it to your vehicle&lt;br/&gt;2. Prospect the land and look for resources&lt;br/&gt;3. An oil recoverer can now connect a pump jack</English>
+            <Polish>No dobra.&lt;br/&gt;1. Zbuduj wiertło na przyczepie i podepnij je pod swój pojazd&lt;br/&gt;2. Rób odwierty testowe i szukaj oleju&lt;br/&gt;3. Górnik może teraz podłączyć pompę i zacząć wydobycie</Polish>
+        </Key>
+        <Key ID="STR_NPC_FAAINIT1">
+            <Original>1. Hello! How do I work here?</Original>
+            <English>1. Hello! How do I work here?</English>
+            <Polish>1. Witam, w jaki sposób mogę się tu zatrudnić?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FAAINIT2">
+            <Original>2. Hello there! Am here to check-in as ATC controller</Original>
+            <English>2. Hello there! Am here to check-in as ATC controller</English>
+            <Polish>2. Witam! Jestem tu aby zacząć pracę jako członek administracji lotów.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FAAHOWTO">
+            <Original>You can find more info on our website:&lt;br/&gt;http://www.FAA.gov/</Original>
+            <English>You can find more info on our website:&lt;br/&gt;http://www.FAA.gov/</English>
+            <Polish>Więcej informacji znajdziesz na naszej stronie:&lt;br/&gt;http://www.FAA.gov/</Polish>
+        </Key>
+        <Key ID="STR_NPC_FAAALR">
+            <Original>You are already working as the FAA&lt;br/&gt;Would you like to stop working here?</Original>
+            <English>You are already working as the FAA&lt;br/&gt;Would you like to stop working here?</English>
+            <Polish>Pracujesz już jako członek administracji lotów&lt;br/&gt;Czy chciałbyś przestać tu pracować?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FAAWORK">
+            <Original>Welcome back FAA member&lt;br/&gt;Are you sure you are ready to start your shift?</Original>
+            <English>Welcome back FAA member&lt;br/&gt;Are you sure you are ready to start your shift?</English>
+            <Polish>Witaj z powrotem członku administracji lotów&lt;br/&gt;Czy jesteś gotów, aby rozpocząć służbę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_FAADEN">
+            <Original>You don't seem to be working here!&lt;br/&gt;You are not an FAA employee</Original>
+            <English>You don't seem to be working here!&lt;br/&gt;You are not an FAA employee</English>
+            <Polish>Nie widzę cię na liście płac!&lt;br/&gt;Nie pracujesz tutaj!</Polish>
+        </Key>
+        <Key ID="STR_NPC_GOVINIT1">
+            <Original>1. Hello! How do I work here?</Original>
+            <English>1. Hello! How do I work here?</English>
+            <Polish>1. Witam! W jaki sposób mogę podjąć tu pracę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_GOVINIT2">
+            <Original>2. Hello there! Am here to check-in as a government employee</Original>
+            <English>2. Hello there! Am here to check-in as a government employee</English>
+            <Polish>2. Witam, przyszedłem rozpocząć pracę pracownika rządowego.</Polish>
+        </Key>
+        <Key ID="STR_NPC_GOVHOWTO">
+            <Original>You can find more info on our website:&lt;br/&gt;http://www.government.gov/</Original>
+            <English>You can find more info on our website:&lt;br/&gt;http://www.government.gov/</English>
+            <Polish>Więcej informacji znajdziesz na naszej stronie internetowej:&lt;br/&gt;http://www.government.gov/</Polish>
+        </Key>
+        <Key ID="STR_NPC_GOVALR">
+            <Original>You are already working as the government&lt;br/&gt;Would you like to stop working here?</Original>
+            <English>You are already working as the government&lt;br/&gt;Would you like to stop working here?</English>
+            <Polish>Już pracujesz jako pracownik rządowy&lt;br/&gt;Czy chciałbyś przestać tu pracować?</Polish>
+        </Key>
+        <Key ID="STR_NPC_GOVWORK">
+            <Original>Welcome back Government member&lt;br/&gt;Are you sure you are ready to start your shift?</Original>
+            <English>Welcome back Government member&lt;br/&gt;Are you sure you are ready to start your shift?</English>
+            <Polish>Witaj z powrotem urzędniku&lt;br/&gt;Czy jesteś pewien, że chcesz rozpocząć zmianę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_GOVDEN">
+            <Original>You don't seem to be working here!&lt;br/&gt;You are not a GOV employee</Original>
+            <English>You don't seem to be working here!&lt;br/&gt;You are not a GOV employee</English>
+            <Polish>Nie pracujesz tutaj!&lt;br/&gt;Nie jesteś urzędnikiem!</Polish>
+        </Key>
+        <Key ID="STR_NPC_DOJINIT2">
+            <Original>2. Hello there! Am here to check-in as DOJ employee</Original>
+            <English>2. Hello there! Am here to check-in as DOJ employee</English>
+            <Polish>Witaj! Jestem tutaj, aby rozpocząć służbę jako członek palestry Fisher’s Island</Polish>
+        </Key>
+        <Key ID="STR_NPC_DOJHOWTO">
+            <Original>You can find more info on our website:&lt;br/&gt;http://www.doj.gov/</Original>
+            <English>You can find more info on our website:&lt;br/&gt;http://www.doj.gov/</English>
+            <Polish>Więcej informacji znajdziesz na naszej stronie:&lt;br/&gt;http://www.doj.gov/</Polish>
+        </Key>
+        <Key ID="STR_NPC_DOJALR">
+            <Original>You are already working as the doj&lt;br/&gt;Would you like to stop working here?</Original>
+            <English>You are already working as the doj&lt;br/&gt;Would you like to stop working here?</English>
+            <Polish>Już pracujesz jako członek palestry Fisher’s Island&lt;br/&gt;Czy chciałbyś przestać tu pracować?</Polish>
+        </Key>
+        <Key ID="STR_NPC_DOJWORK">
+            <Original>Welcome back doj member&lt;br/&gt;Are you sure you are ready to start your shift?</Original>
+            <English>Welcome back doj member&lt;br/&gt;Are you sure you are ready to start your shift?</English>
+            <Polish>Witaj z powrotem członku palestry&lt;br/&gt;Czy jesteś pewny, że chcesz zacząć swą zmianę?</Polish>
+        </Key>
+        <Key ID="STR_NPC_DOJDEN">
+            <Original>You don't seem to be working here!&lt;br/&gt;You are not an doj employee</Original>
+            <English>You don't seem to be working here!&lt;br/&gt;You are not an doj employee</English>
+            <Polish>Nie pracujesz tutaj!&lt;br/&gt;Nie jesteś członkiem palestry.</Polish>
+        </Key>
+        <Key ID="STR_NPC_FAASTOP1">
+            <Original>1. Hello! I would like to sign off as ATC and go back down</Original>
+            <English>1. Hello! I would like to sign off as ATC and go back down</English>
+            <Polish>1. Witam! Chciałbym wypisać się z kontroli lotów i zejść na dół.</Polish>
+        </Key>     
+    </Package>
+   
+       
+    <Package name="Config_Intersect">
+        <Key ID="STR_INTSECT_TOGGLEFLOATS">
+            <Original>Toggle Floats</Original>
+            <English>Toggle Floats</English>
+            <Polish>Włącz bujaki</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGGLEFP">
+            <Original>Toggle Fuelpump</Original>
+            <English>Toggle Fuelpump</English>
+            <Polish>Włącz pompę paliwa</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGGLEGEAR">
+            <Original>Toggle Gear</Original>
+            <English>Toggle Gear</English>
+            <Polish>Wrzuć bieg</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGGLEBAT">
+            <Original>Toggle Battery</Original>
+            <English>Toggle Battery</English>
+            <Polish>Włącz baterię</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ADJFLUP">
+            <Original>Adjust Flaps Upward</Original>
+            <English>Adjust Flaps Upward</English>
+            <Polish>Klapy do góry</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ADJFLDWN">
+            <Original>Adjust Flaps Downward</Original>
+            <English>Adjust Flaps Downward</English>
+            <Polish>Klapy w dół</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SWITCHGEN">
+            <Original>Switch Generator</Original>
+            <English>Switch Generator</English>
+            <Polish>Przełącz Generator</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGHEADL">
+            <Original>Toggle Head Lights</Original>
+            <English>Toggle Head Lights</English>
+            <Polish>Włącz światła mijania</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGCOLLIGHT">
+            <Original>Toggle Collision Lights</Original>
+            <English>Toggle Collision Lights</English>
+            <Polish>Włącz światła kolizyjne</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGATCR">
+            <Original>Toggle ATC Radio</Original>
+            <English>Toggle ATC Radio</English>
+            <Polish>Przełącz na częstotliwość ATC</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGSTARENG">
+            <Original>Toggle Starter (Engine %1)</Original>
+            <English>Toggle Starter (Engine %1)</English>
+            <Polish>Uruchom Starter (Silnik %1)</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_THROTCL">
+            <Original>Throttle Closed (Engine %1)</Original>
+            <English>Throttle Closed (Engine %1)</English>
+            <Polish>Ciąg zamknięty (Silnik %1)</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGBATT">
+            <Original>Toggle Batteries</Original>
+            <English>Toggle Batteries</English>
+            <Polish>Włącz akumulatory</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_COCKLIGHT">
+            <Original>Cockpit Lights</Original>
+            <English>Cockpit Lights</English>
+            <Polish>Światła kokpitu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGGLESL">
+            <Original>Toggle Searchlight</Original>
+            <English>Toggle Searchlight</English>
+            <Polish>Włącz szperacze</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGROTBR">
+            <Original>Toggle Rotor Brake</Original>
+            <English>Toggle Rotor Brake</English>
+            <Polish>Włącz hamulec rotora</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STACKCONE">
+            <Original>Stack cone</Original>
+            <English>Stack cone</English>
+            <Polish>Piętruj pachołki</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTERDRIVER">
+            <Original>Enter as Driver</Original>
+            <English>Enter as Driver</English>
+            <Polish>Wsiądź jako kierowca</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_EXITVEH">
+            <Original>Exit Vehicle</Original>
+            <English>Exit Vehicle</English>
+            <Polish>Opuść pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LUVEHDOORS">
+            <Original>Lock/Unlock Vehicle Doors</Original>
+            <English>Lock/Unlock Vehicle Doors</English>
+            <Polish>Zamknij/Otwórz drzwi pojazdu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_EJALLPASS">
+            <Original>Eject All Passengers</Original>
+            <English>Eject All Passengers</English>
+            <Polish>Wyciągnij pasażerów</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DETAINSUS">
+            <Original>Detain Suspect</Original>
+            <English>Detain Suspect</English>
+            <Polish>Wsadź podejrzanego</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLDOOR">
+            <Original>Open\Close Door</Original>
+            <English>Open\Close Door</English>
+            <Polish>Otwórz/Zamknij drzwi</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_REPVEH">
+            <Original>Repair Vehicle</Original>
+            <English>Repair Vehicle</English>
+            <Polish>Napraw pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTCOPIL">
+            <Original>Enter as Co-Pilot</Original>
+            <English>Enter as Co-Pilot</English>
+            <Polish>Wejdź jako Co-Pilot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPENG">
+            <Original>Inspect Engine #%1</Original>
+            <English>Inspect Engine #%1</English>
+            <Polish>Sprawdź silnik #%1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPMAINROT">
+            <Original>Inspect Main Rotor #%1</Original>
+            <English>Inspect Main Rotor #%1</English>
+            <Polish>Sprawdź główny wirnik #%1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPTAILROT">
+            <Original>Inspect Tail Rotor %1</Original>
+            <English>Inspect Tail Rotor %1</English>
+            <Polish>Sprawdź tylny wirnik #1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPTRANS">
+            <Original>Inspect Transmission</Original>
+            <English>Inspect Transmission</English>
+            <Polish>Sprawdź skrzynię biegów</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPFUEL">
+            <Original>Inspect Fuel</Original>
+            <English>Inspect Fuel</English>
+            <Polish>Sprawdź paliwo</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPGEAR">
+            <Original>Inspect Gear #%1</Original>
+            <English>Inspect Gear #%1</English>
+            <Polish>Sprawdź przybory #%1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPHORSTAB">
+            <Original>Inspect Horizontal stabilizer #%1</Original>
+            <English>Inspect Horizontal stabilizer #%1</English>
+            <Polish>Sprawdź stabilizator poziomy #%1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPLL">
+            <Original>Inspect Landing Light</Original>
+            <English>Inspect Landing Light</English>
+            <Polish>Sprawdź światła lądowania</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPPTUB">
+            <Original>Inspect Pitot Tube #%1</Original>
+            <English>Inspect Pitot Tube #%1</English>
+            <Polish>Sprawdź kokpit #%1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPSTP">
+            <Original>Inspect Static Port #%1</Original>
+            <English>Inspect Static Port #%1</English>
+            <Polish>Sprawdź port statyczny #%1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPVERSTAB">
+            <Original>Inspect Vertical Stabilizer</Original>
+            <English>Inspect Vertical Stabilizer</English>
+            <Polish>Sprawdź stabilizator pionowy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSPINT">
+            <Original>Inspect Intake #%1</Original>
+            <English>Inspect Intake #%1</English>
+            <Polish>Sprawdź wpust #%1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLBARG">
+            <Original>Open/Close Bargate</Original>
+            <English>Open/Close Bargate</English>
+            <Polish>Otwórz/Zamknij bramę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SPVHINGAR">
+            <Original>Spawn vehicle in garage</Original>
+            <English>Spawn vehicle in garage</English>
+            <Polish>Umieść pojazd w garażu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ACCVIRSTOR">
+            <Original>Access virtual storage</Original>
+            <English>Access virtual storage</English>
+            <Polish>Otwórz wirtualny magazyn</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_IGNITION">
+            <Original>Ignition</Original>
+            <English>Ignition</English>
+            <Polish>Zapłon</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTASPASS">
+            <Original>Enter as Passenger</Original>
+            <English>Enter as Passenger</English>
+            <Polish>Wsiądź jako pasażer</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_REDRARM">
+            <Original>Retract/Extend Drill Arm</Original>
+            <English>Retract/Extend Drill Arm</English>
+            <Polish>Wsuń/Wysuń ramię wiertła</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_REDRARMD">
+            <Original>Retract/Extend Drill</Original>
+            <English>Retract/Extend Drill</English>
+            <Polish>Wsuń/wysuń wiertło</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STARTJPUMP">
+            <Original>Start Jack Pump</Original>
+            <English>Start Jack Pump</English>
+            <Polish>Uruchom pompę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ATTDETROPE">
+            <Original>Attach/Detach Rope</Original>
+            <English>Attach/Detach Rope</English>
+            <Polish>Zawiąż/Rozwiąż linę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PUSKI">
+            <Original>Pickup Ski</Original>
+            <English>Pickup Ski</English>
+            <Polish>Podnieś narty</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_HANDTICKET">
+            <Original>Hand Ticket</Original>
+            <English>Hand Ticket</English>
+            <Polish>Daj Mandat</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STVAULTMON">
+            <Original>Steal Vault Money</Original>
+            <English>Steal Vault Money</English>
+            <Polish>Ukradnij pieniądze z sejfu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONVAULTDRI">
+            <Original>Connect Vault Drill</Original>
+            <English>Connect Vault Drill</English>
+            <Polish>Zaczep wiertło do sejfu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SECVAULTD">
+            <Original>Secure Vault Door</Original>
+            <English>Secure Vault Door</English>
+            <Polish>Zabezpiecz drzwi sejfu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INSTDRLBIT">
+            <Original>Install Drill Bit</Original>
+            <English>Install Drill Bit</English>
+            <Polish>Zainstaluj końcówkę do wiertła</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STARTVDRILL">
+            <Original>Start Vault Drill</Original>
+            <English>Start Vault Drill</English>
+            <Polish>Zacznij wiercić</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DISSDRILL">
+            <Original>Dissemble Drill</Original>
+            <English>Dissemble Drill</English>
+            <Polish>Rozmontuj wiertarkę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPDEPBOX">
+            <Original>Open Deposit Box</Original>
+            <English>Open Deposit Box</English>
+            <Polish>Otwórz skrytkę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USEATM">
+            <Original>Use ATM</Original>
+            <English>Use ATM</English>
+            <Polish>Bankomat</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPK9MEN">
+            <Original>Open K-9 Menu</Original>
+            <English>Open K-9 Menu</English>
+            <Polish>Otwórz menu K-9</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PICKUPITEM">
+            <Original>Pickup Item</Original>
+            <English>Pickup Item</English>
+            <Polish>Podnieś przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CHECKITEM">
+            <Original>Check Item</Original>
+            <English>Check Item</English>
+            <Polish>Sprawdź przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_BUYITEM">
+            <Original>Buy Item</Original>
+            <English>Buy Item</English>
+            <Polish>Kup przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SELLITEM">
+            <Original>Sell Item</Original>
+            <English>Sell Item</English>
+            <Polish>Sprzedaj przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PLACEITEM">
+            <Original>Place Item</Original>
+            <English>Place Item</English>
+            <Polish>Umieść przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PLACEBURGER">
+            <Original>Place Burger</Original>
+            <English>Place Burger</English>
+            <Polish>Połóż burgera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_BUSENET">
+            <Original>Buy/Sell Net</Original>
+            <English>Buy/Sell Net</English>
+            <Polish>Kup/Sprzedaj sieci</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_COLLNET">
+            <Original>Collect Net</Original>
+            <English>Collect Net</English>
+            <Polish>Zwiń sieci</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DEPLNET">
+            <Original>Deploy Net</Original>
+            <English>Deploy Net</English>
+            <Polish>Zarzuć sieci</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_BUSEBUCK">
+            <Original>Buy/Sell Bucket</Original>
+            <English>Buy/Sell Bucket</English>
+            <Polish>Kup/Sprzedaj wiadro</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_HARPLANT">
+            <Original>Harvest Plant</Original>
+            <English>Harvest Plant</English>
+            <Polish>Zetnij roślinę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_BUYHOUSE">
+            <Original>Buy House</Original>
+            <English>Buy House</English>
+            <Polish>Kup dom</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RENTGH">
+            <Original>Rent Greenhouse</Original>
+            <English>Rent Greenhouse</English>
+            <Polish>Wynajmij szklarnię</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RENTBUSI">
+            <Original>Rent Business</Original>
+            <English>Rent Business</English>
+            <Polish>Wynajmij nieruchomość</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONROLHOSE">
+            <Original>Connect Rolled Hose</Original>
+            <English>Connect Rolled Hose</English>
+            <Polish>Podłącz zwinięty wąż</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHOSETAD">
+            <Original>Connect Hose To Adapter</Original>
+            <English>Connect Hose To Adapter</English>
+            <Polish>Podłącz wąż do adaptera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_HOLDHOSEAD">
+            <Original>Hold Hose Adapter</Original>
+            <English>Hold Hose Adapter</English>
+            <Polish>Przytrzymaj adapter węża</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHOSETIN">
+            <Original>Connect Hose To Inlet</Original>
+            <English>Connect Hose To Inlet</English>
+            <Polish>Podłącz wąż do wejścia</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHOSETOUT">
+            <Original>Connect Hose To Outlet</Original>
+            <English>Connect Hose To Outlet</English>
+            <Polish>Podłącz wąż do wyjścia</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHOSETTANK">
+            <Original>Connect Hose To Tanker</Original>
+            <English>Connect Hose To Tanker</English>
+            <Polish>Podłącz wąż do cysterny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHOSEADAP">
+            <Original>Connect Hose Adapter</Original>
+            <English>Connect Hose Adapter</English>
+            <Polish>Podłącz adapter do węża</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SWITCHGASSTORSW">
+            <Original>Switch Gas Storage Switch</Original>
+            <English>Switch Gas Storage Switch</English>
+            <Polish>Przełącz guzik ładunku paliwa</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHYDWRE">
+            <Original>Connect Hydrant Wrench</Original>
+            <English>Connect Hydrant Wrench</English>
+            <Polish>Podłącz klucz hydrantu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPENHYDR">
+            <Original>Open Hydrant</Original>
+            <English>Open Hydrant</English>
+            <Polish>Odkręć hydrant</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CLOSEHYDR">
+            <Original>Close Hydrant</Original>
+            <English>Close Hydrant</English>
+            <Polish>Zakręć hydrant</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHOSETOLADIN">
+            <Original>Connect Hose To Ladder Inlet</Original>
+            <English>Connect Hose To Ladder Inlet</English>
+            <Polish>Podłącz wąż do zaworu Laddera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHOSETOENGIN">
+            <Original>Connect Hose To Engine Inlet</Original>
+            <English>Connect Hose To Engine Inlet</English>
+            <Polish>Podłącz wąż do zaworu Engine</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLDISCH">
+            <Original>Open/Close Discharge</Original>
+            <English>Open/Close Discharge</English>
+            <Polish>Otwórz/Zamknij odpływ</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONHOSETOENGDIS">
+            <Original>Connect Hose To Engine Discharge</Original>
+            <English>Connect Hose To Engine Discharge</English>
+            <Polish>Podłącz wąż do odpływu Engline</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CREATEFISHB">
+            <Original>Create Fish Burger</Original>
+            <English>Create Fish Burger</English>
+            <Polish>Przygotuj Fish Burgera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CREATEFTACO">
+            <Original>Create Fish Taco</Original>
+            <English>Create Fish Taco</English>
+            <Polish>Przygotuj  Fish Taco</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_BUSEITEM">
+            <Original>Buy/Sell Item</Original>
+            <English>Buy/Sell Item</English>
+            <Polish>Kup/Sprzedaj przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PICKUPKEY">
+            <Original>Pickup Key</Original>
+            <English>Pickup Key</English>
+            <Polish>Podnieś klucz</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_VEHSTOR">
+            <Original>Vehicle Storage</Original>
+            <English>Vehicle Storage</English>
+            <Polish>Garaż</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PAINTAIRC">
+            <Original>Paint Aircraft</Original>
+            <English>Paint Aircraft</English>
+            <Polish>Pomaluj samolot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STOREAIRC">
+            <Original>Store Aircraft</Original>
+            <English>Store Aircraft</English>
+            <Polish>Schowaj samolot do garażu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLDEFROOM">
+            <Original>Open/Close Defendant Room</Original>
+            <English>Open/Close Defendant Room</English>
+            <Polish>Otwórz/Zamknij pokój obrony</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPTREASINF">
+            <Original>Open Treasury Info</Original>
+            <English>Open Treasury Info</English>
+            <Polish>Otwórz informację skarbca</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLJAILD">
+            <Original>Open/Close Jail Door</Original>
+            <English>Open/Close Jail Door</English>
+            <Polish>Otwórz/Zamknij drzwi celi</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USEDOORB">
+            <Original>Use Door Button</Original>
+            <English>Use Door Button</English>
+            <Polish>Otwórz</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPENCELL">
+            <Original>Open Cell %1</Original>
+            <English>Open Cell %1</English>
+            <Polish>Otwórz celę %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPENMCELL">
+            <Original>Open Main cell %1</Original>
+            <English>Open Main cell %1</English>
+            <Polish>Otwórz główną celę %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPENKCELL">
+            <Original>Open Kitchen Cell</Original>
+            <English>Open Kitchen Cell</English>
+            <Polish>Otwórz celę kuchenną</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPENGARAGE">
+            <Original>Open Garage</Original>
+            <English>Open Garage</English>
+            <Polish>Otwórz garaż</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LOCKDOWN">
+            <Original>LOCKDOWN!</Original>
+            <English>LOCKDOWN!</English>
+            <Polish>ZABLOKOWANE!</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLGARDOOR">
+            <Original>Open/Close Garage Door</Original>
+            <English>Open/Close Garage Door</English>
+            <Polish>Otwórz/Zamknij drzwi garażu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STOREVEH">
+            <Original>Store Vehicle</Original>
+            <English>Store Vehicle</English>
+            <Polish>Schowaj pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OBJSTOR">
+            <Original>Object Storage</Original>
+            <English>Object Storage</English>
+            <Polish>Magazyn</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STOREOBJ">
+            <Original>Store Object</Original>
+            <English>Store Object</English>
+            <Polish>Schowaj przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DOOR">
+            <Original>Door</Original>
+            <English>Door</English>
+            <Polish>Drzwi</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPENGASMENU">
+            <Original>Open Gasstation Menu</Original>
+            <English>Open Gasstation Menu</English>
+            <Polish>Otwórz menu stacji benzynowej</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPENSHOWDOOR">
+            <Original>Open Showroom Doors</Original>
+            <English>Open Showroom Doors</English>
+            <Polish>Otwórz drzwi wystawy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CLOSESHOWDOOR">
+            <Original>Close Showroom Doors</Original>
+            <English>Close Showroom Doors</English>
+            <Polish>Zamknij drzwi wystawy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DELIVERYVEH">
+            <Original>Delivery Vehicle</Original>
+            <English>Delivery Vehicle</English>
+            <Polish>Pojazd kuriera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DELPACKAGE">
+            <Original>Deliver Package</Original>
+            <English>Deliver Package</English>
+            <Polish>Doręcz przesyłkę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LOUNDOOR">
+            <Original>Lock/Unlock Door</Original>
+            <English>Lock/Unlock Door</English>
+            <Polish>Zamknij/otwórz drzwi</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_KNOCKONDOOR">
+            <Original>Knock On Door</Original>
+            <English>Knock On Door</English>
+            <Polish>Zapukaj</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_GARAGEDOOR">
+            <Original>Garage Door</Original>
+            <English>Garage Door</English>
+            <Polish>Drzwi garażowe</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_BOARDHELISSIDE">
+            <Original>Board Helicopter (Side)</Original>
+            <English>Board Helicopter (Side)</English>
+            <Polish>Wejdź do helikoptera (z boku)</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SWITCHIGN">
+            <Original>Switch Ignition</Original>
+            <English>Switch Ignition</English>
+            <Polish>Przełącz zapłon</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SWITCHIGN2">
+            <Original>Switch Ignition/Starter</Original>
+            <English>Switch Ignition/Starter</English>
+            <Polish>Przełącz zapłon / rozrusznik</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SWITCHBAT">
+            <Original>Switch Battery</Original>
+            <English>Switch Battery</English>
+            <Polish>Przełącz akumulator</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_APUGEN">
+            <Original>APU Generator</Original>
+            <English>APU Generator</English>
+            <Polish>Generator P.J.Z</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENGGEN">
+            <Original>ENG Generator NO.%1</Original>
+            <English>ENG Generator NO.%1</English>
+            <Polish>Generator silnika Nr %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_APUCONT">
+            <Original>APU Control</Original>
+            <English>APU Control</English>
+            <Polish>Sterowanie P.J.Z</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ECSSTART">
+            <Original>ECS/Start</Original>
+            <English>ECS/Start</English>
+            <Polish>ECS/Start</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_FUELPUMP">
+            <Original>Fuel Pump</Original>
+            <English>Fuel Pump</English>
+            <Polish>Pompa paliwowa</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_WINDSHIELD">
+            <Original>Windshield</Original>
+            <English>Windshield</English>
+            <Polish>Szyba przednia</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_UNFOJAYHWK">
+            <Original>Unfold/Fold Jayhawk</Original>
+            <English>Unfold/Fold Jayhawk</English>
+            <Polish>Rozłóż/Złóż Jayhawka</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USELADDER">
+            <Original>Use Ladder</Original>
+            <English>Use Ladder</English>
+            <Polish>Użyj drabiny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DRIVESHIP">
+            <Original>Drive Ship</Original>
+            <English>Drive Ship</English>
+            <Polish>Prowadź statek</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CARGOSHIP">
+            <Original>Cargo Ship</Original>
+            <English>Cargo Ship</English>
+            <Polish>Statek towarowy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONTREXTING">
+            <Original>Control Extinguisher</Original>
+            <English>Control Extinguisher</English>
+            <Polish>Użyj gaśnicy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGGLEPUMP">
+            <Original>Toggle Pump</Original>
+            <English>Toggle Pump</English>
+            <Polish>Włącz pompę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGGLEPRESS">
+            <Original>Toggle Pressure</Original>
+            <English>Toggle Pressure</English>
+            <Polish>Zmień ciśnienie</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PATDOWN">
+            <Original>Pat down</Original>
+            <English>Pat down</English>
+            <Polish>Przeszukaj</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CUFFUN">
+            <Original>Cuff/Uncuff</Original>
+            <English>Cuff/Uncuff</English>
+            <Polish>Skuj/Rozkuj</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DRAG">
+            <Original>Drag</Original>
+            <English>Drag</English>
+            <Polish>Przenieś</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_KICKDOWN">
+            <Original>Kick Down</Original>
+            <English>Kick Down</English>
+            <Polish>Kopnij</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RETRACTSTR">
+            <Original>Retract Stinger</Original>
+            <English>Retract Stinger</English>
+            <Polish>Wysuń Stingera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DEPLSTR">
+            <Original>Deploy Stinger</Original>
+            <English>Deploy Stinger</English>
+            <Polish>Odpal Stingera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTCODR">
+            <Original>Enter as Co-Driver</Original>
+            <English>Enter as Co-Driver</English>
+            <Polish>Wejdź jako Pasażer </Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RESSCOOT">
+            <Original>Reset Scooter</Original>
+            <English>Reset Scooter</English>
+            <Polish>Zresetuj skuter</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_VEHINFO">
+            <Original>Vehicle Info</Original>
+            <English>Vehicle Info</English>
+            <Polish>Informacje pojazdu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGLIGHTB">
+            <Original>Toggle Lightbar</Original>
+            <English>Toggle Lightbar</English>
+            <Polish>Włącz panel świetlny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGSIR">
+            <Original>Toggle Siren</Original>
+            <English>Toggle Siren</English>
+            <Polish>Włącz syreny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGMANUAL">
+            <Original>Toggle Manual %1</Original>
+            <English>Toggle Manual %1</English>
+            <Polish>Przełącz ręcznie %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLTRUNK">
+            <Original>Open/Close Trunk</Original>
+            <English>Open/Close Trunk</English>
+            <Polish>Otwórz/Zamknij bagażnik</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGWARNL">
+            <Original>Toggle Warning Lights</Original>
+            <English>Toggle Warning Lights</English>
+            <Polish>Włącz światła ostrzegawcze</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USEPOLRAD">
+            <Original>Use Police Radio</Original>
+            <English>Use Police Radio</English>
+            <Polish>Użyj radia policyjnego</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_HITCHTRLER">
+            <Original>Hitch Trailer</Original>
+            <English>Hitch Trailer</English>
+            <Polish>Podepnij przyczepkę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_UNHITCHTRL">
+            <Original>Unhitch Trailer</Original>
+            <English>Unhitch Trailer</English>
+            <Polish>Odepnij przyczepkę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLTRAILD">
+            <Original>Open/Close Trailer Door</Original>
+            <English>Open/Close Trailer Door</English>
+            <Polish>Otwórz/Zamknij drzwi przyczepy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LRTRAILERR">
+            <Original>Lower/Raise Trailer Ramp</Original>
+            <English>Lower/Raise Trailer Ramp</English>
+            <Polish>Opuść/Podnieś rampę przyczepy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LRRAMP">
+            <Original>Lower/Raise Ramp</Original>
+            <English>Lower/Raise Ramp</English>
+            <Polish>Opuść/Podnieś rampę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SPINSIGN">
+            <Original>Spin Sign</Original>
+            <English>Spin Sign</English>
+            <Polish>Obróć znak</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LANEREGISTER">
+            <Original>Lane Registration</Original>
+            <English>Lane Registration</English>
+            <Polish>Wynajmij tor</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SHOWSCORE">
+            <Original>Show Scoring</Original>
+            <English>Show Scoring</English>
+            <Polish>Pokaż wyniki</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PICKBALL">
+            <Original>Pickup Ball</Original>
+            <English>Pickup Ball</English>
+            <Polish>Podnieś kule</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ACCTVSYS">
+            <Original>Access CCTV System</Original>
+            <English>Access CCTV System</English>
+            <Polish>Otwórz system kamer</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ACCYTCOMP">
+            <Original>Access Youtube Computer</Original>
+            <English>Access Youtube Computer</English>
+            <Polish>Wejdź do komputera Youtube</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CHECKOUT">
+            <Original>Check Out</Original>
+            <English>Check Out</English>
+            <Polish>Sprawdź</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SITDOWN">
+            <Original>Sit Down</Original>
+            <English>Sit Down</English>
+            <Polish>Usiądź</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LAYDOWN">
+            <Original>Lay down</Original>
+            <English>Lay down</English>
+            <Polish>Połóż się</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTASGUN">
+            <Original>Enter as Gunner %1</Original>
+            <English>Enter as Gunner %1</English>
+            <Polish>Wejdź jako strzelec %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SITINSEAT">
+            <Original>Sit In Seat %1</Original>
+            <English>Sit In Seat %1</English>
+            <Polish>Usiądź na miejscu %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_MOVETODRIVER">
+            <Original>Move to Driver</Original>
+            <English>Move to Driver</English>
+            <Polish>Przesiądź się na kierowcę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_MOVTOGUNNR">
+            <Original>Move to Gunner %1</Original>
+            <English>Move to Gunner %1</English>
+            <Polish>Przesiądź się na strzelca %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_MOVETOSEAT">
+            <Original>Move to Seat %1</Original>
+            <English>Move to Seat %1</English>
+            <Polish>Przejdź na miejsce %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_MOVETOCOPIL">
+            <Original>Move to Co-Pilot</Original>
+            <English>Move to Co-Pilot</English>
+            <Polish>Przesiądź się na co-pilota</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USEYACHTL">
+            <Original>Use Yacht Ladder</Original>
+            <English>Use Yacht Ladder</English>
+            <Polish>Użyj drabiny jachtu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTUSCGCUT">
+            <Original>Enter USCG Cutter</Original>
+            <English>Enter USCG Cutter</English>
+            <Polish>Wejdź na okręt patrolowy USCG</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTUSCGCUTC">
+            <Original>Enter USCG Cutter (Cargo)</Original>
+            <English>Enter USCG Cutter (Cargo)</English>
+            <Polish>Wejdź na okręt patrolowy USCG (Towar)</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTUSCGCUTG">
+            <Original>Enter USCG Cutter (Gunner)</Original>
+            <English>Enter USCG Cutter (Gunner)</English>
+            <Polish>Wejdź na okręt patrolowy USCG (Strzelec)</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USECUTLAD">
+            <Original>Use Cutter Ladder</Original>
+            <English>Use Cutter Ladder</English>
+            <Polish>Użyj drabiny okrętu patrolowego</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CLIMBINTYA">
+            <Original>Climb Onto Yacht</Original>
+            <English>Climb Onto Yacht</English>
+            <Polish>Wejdź na jacht</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PLANTFARMSEED">
+            <Original>Plant Farming Seed</Original>
+            <English>Plant Farming Seed</English>
+            <Polish>Posadź nasiono</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_GRABGASHOSE">
+            <Original>Grab Gas Hose</Original>
+            <English>Grab Gas Hose</English>
+            <Polish>Złap pistolet do paliwa</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGGLEFUELP">
+            <Original>Toggle Fuel Pump</Original>
+            <English>Toggle Fuel Pump</English>
+            <Polish>Wł. pompę paliwa</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RETGASHOSE">
+            <Original>Return Gas Hose</Original>
+            <English>Return Gas Hose</English>
+            <Polish>Odłóż pistolet do paliwa</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONGASHOSE">
+            <Original>Connect Gas Hose</Original>
+            <English>Connect Gas Hose</English>
+            <Polish>Podłącz wąż paliwa</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USEJERRYC">
+            <Original>Use jerrycan</Original>
+            <English>Use jerrycan</English>
+            <Polish>Użyj kanistra</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_GETPOPC">
+            <Original>Get Popcorn</Original>
+            <English>Get Popcorn</English>
+            <Polish>Weź popcorn</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PICKITEMTOHAND">
+            <Original>Pickup Item To Hand</Original>
+            <English>Pickup Item To Hand</English>
+            <Polish>Weź przedmiot do ręki</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LOADPINTOTANK">
+            <Original>Load Petrol Into Tanker</Original>
+            <English>Load Petrol Into Tanker</English>
+            <Polish>Ładuj paliwo do cysterny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USECARLIFT">
+            <Original>Use Car Lift</Original>
+            <English>Use Car Lift</English>
+            <Polish>Użyj podnośnika</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_UPGRVEH">
+            <Original>Upgrade Vehicle</Original>
+            <English>Upgrade Vehicle</English>
+            <Polish>Ulepsz pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLMAILTD">
+            <Original>Open/Close Mailtruck Door</Original>
+            <English>Open/Close Mailtruck Door</English>
+            <Polish>Otwórz/Zamknij drzwi </Polish>
+        </Key>
+        <Key ID="STR_INTSECT_IGNROCKET">
+            <Original>Ignite Rocket</Original>
+            <English>Ignite Rocket</English>
+            <Polish>Odpal rakietę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LOWTOWROPE">
+            <Original>Lower Towing Rope</Original>
+            <English>Lower Towing Rope</English>
+            <Polish>Rozwiń linę holowniczą </Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RAISETOWROPET">
+            <Original>Raise Towing Rope (Tow)</Original>
+            <English>Raise Towing Rope (Tow)</English>
+            <Polish>Zwiń linę holowniczą</Polish>
+        </Key>
+       
+        <Key ID="STR_INTSECT_LoadVehicle">
+            <Original>Load Vehicle</Original>
+            <English>Load Vehicle</English>
+            <Polish>Załaduj pojazd</Polish>
+        </Key>
+       
+        <Key ID="STR_INTSECT_UnloadVehicle">
+            <Original>Unload Vehicle</Original>
+            <English>Unload Vehicle</English>
+            <Polish>Wyładuj pojazd</Polish>
+        </Key>
+       
+        <Key ID="STR_INTSECT_TOGGRAMP">
+            <Original>Toggle Ramp</Original>
+            <English>Toggle Ramp</English>
+            <Polish>Przełącz rampę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGREARSPOTL">
+            <Original>Toggle Rear Spotlight</Original>
+            <English>Toggle Rear Spotlight</English>
+            <Polish>Przełącz światła tylne</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_IMPNEARVEH">
+            <Original>Impound Nearest Vehicle</Original>
+            <English>Impound Nearest Vehicle</English>
+            <Polish>Odholuj najbliższy pojazd</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLIMPGATE">
+            <Original>Open/Close Impound Gate</Original>
+            <English>Open/Close Impound Gate</English>
+            <Polish>Otwórz/Zamknij bramę wjazdową</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TURNONALLL">
+            <Original>Turn On All Lights</Original>
+            <English>Turn On All Lights</English>
+            <Polish>Włącz wszystkie światła</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TURNONLIGHTS">
+            <Original>Turn On Lights</Original>
+            <English>Turn On Lights</English>
+            <Polish>Włącz światła</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TAKELADDER">
+            <Original>Take Ladder</Original>
+            <English>Take Ladder</English>
+            <Polish>Weź drabinę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PUTBACKLAD">
+            <Original>Put Back Ladder</Original>
+            <English>Put Back Ladder</English>
+            <Polish>Odłóż drabinę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PUTBACKHOSE">
+            <Original>Put Back Hose %1</Original>
+            <English>Put Back Hose %1</English>
+            <Polish>Odłóż wąż</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TAKEHOSE">
+            <Original>Take Hose %1</Original>
+            <English>Take Hose %1</English>
+            <Polish>Weź wąż</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGCONTCOV">
+            <Original>Toggle Controller Cover</Original>
+            <English>Toggle Controller Cover</English>
+            <Polish>Podnieś osłonę panelu kontroli</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGDSFOUT">
+            <Original>Toggle DS Front Outrigger</Original>
+            <English>Toggle DS Front Outrigger</English>
+            <Polish>Wysuń/Wsuń LP podporę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGDROUT">
+            <Original>Toggle DS Rear Outrigger</Original>
+            <English>Toggle DS Rear Outrigger</English>
+            <Polish>Wysuń/Wsuń LT podporę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGPSFOUT">
+            <Original>Toggle PS Front Outrigger</Original>
+            <English>Toggle PS Front Outrigger</English>
+            <Polish>Wysuń/Wsuń PT podporę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGPSROUT">
+            <Original>Toggle PS Rear Outrigger</Original>
+            <English>Toggle PS Rear Outrigger</English>
+            <Polish>Wysuń/Wsuń PP podporę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TORADSOUT">
+            <Original>Toggle/Raise DS Outriggers</Original>
+            <English>Toggle/Raise DS Outriggers</English>
+            <Polish>Podnieś/Obniż L podpory</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TORAPSOUT">
+            <Original>Toggle/Raise PS Outriggers</Original>
+            <English>Toggle/Raise PS Outriggers</English>
+            <Polish>Podnieś/Obniż P podpory</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DSFLOODL">
+            <Original>DS Floodlights</Original>
+            <English>DS Floodlights</English>
+            <Polish>Reflektory zewnętrzne L</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PSFLOODL">
+            <Original>PS Floodlights</Original>
+            <English>PS Floodlights</English>
+            <Polish>Reflektory zewnętrzne P</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PERILIGHT">
+            <Original>Perimeter Lights</Original>
+            <English>Perimeter Lights</English>
+            <Polish>Światła perymetryczne</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LADDERFLOODL">
+            <Original>Ladder Floodlight</Original>
+            <English>Ladder Floodlight</English>
+            <Polish>Reflektory zewnętrzne Laddera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LADDERCAM">
+            <Original>Ladder Cam</Original>
+            <English>Ladder Cam</English>
+            <Polish>Kamera Laddera</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTASLADOP">
+            <Original>Enter as Ladder Operator</Original>
+            <English>Enter as Ladder Operator</English>
+            <Polish>Operuj drabiną</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LORALADRACK">
+            <Original>Lower/Raise Ladder Rack</Original>
+            <English>Lower/Raise Ladder Rack</English>
+            <Polish>Opuść/Podnieś drabinę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TONOFFPUMP">
+            <Original>Turn On\Off Pump</Original>
+            <English>Turn On\Off Pump</English>
+            <Polish>Włącz/Wyłącz pompę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_REARFLOODL">
+            <Original>Rear Floodlights</Original>
+            <English>Rear Floodlights</English>
+            <Polish>Reflektory tylne</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_INTLIGHTS">
+            <Original>Interior Lights</Original>
+            <English>Interior Lights</English>
+            <Polish>Światła wewnętrzne</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_HIGHBEAM">
+            <Original>High Beam</Original>
+            <English>High Beam</English>
+            <Polish>Światła drogowe</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_USESTRETCH">
+            <Original>Use Stretcher</Original>
+            <English>Use Stretcher</English>
+            <Polish>Użyj noszy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TGLFAIRAVAIL">
+            <Original>Toggle Fair Available</Original>
+            <English>Toggle Fair Available</English>
+            <Polish>Zmień dostępność taryfy</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PAUSEFAIR">
+            <Original>Pause Fair</Original>
+            <English>Pause Fair</English>
+            <Polish>Pauza</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RESETFAIR">
+            <Original>Reset Fair</Original>
+            <English>Reset Fair</English>
+            <Polish>Wyczyść licznik</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STARTFAIR">
+            <Original>Start Fair</Original>
+            <English>Start Fair</English>
+            <Polish>Rozpocznij kurs</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_STOPFAIR">
+            <Original>Stop Fair</Original>
+            <English>Stop Fair</English>
+            <Polish>Zakończ kurs</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_AIRSUSCONT">
+            <Original>Air Suspension Control</Original>
+            <English>Air Suspension Control</English>
+            <Polish>Kontrola zawieszenia pneumatycznego</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGSPOTLIGHT">
+            <Original>Toggle Spotlight</Original>
+            <English>Toggle Spotlight</English>
+            <Polish>Światła dzienne</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LEFTALLLIGHT">
+            <Original>Left Alley Light</Original>
+            <English>Left Alley Light</English>
+            <Polish>Lewy reflektor</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RIGHTALLLIGHT">
+            <Original>Right Alley Light</Original>
+            <English>Right Alley Light</English>
+            <Polish>Prawy reflektor</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_REVERSECAM">
+            <Original>Reverse Cam</Original>
+            <English>Reverse Cam</English>
+            <Polish>Kamera cofania</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_AIRHORN">
+            <Original>Airhorn</Original>
+            <English>Airhorn</English>
+            <Polish>Trąbka</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ELECHORN">
+            <Original>Electric Horn</Original>
+            <English>Electric Horn</English>
+            <Polish>Elektryczny klakson</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ELECAIRH">
+            <Original>Electric Airhorn</Original>
+            <English>Electric Airhorn</English>
+            <Polish>Elektryczna trąbka</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RUMBLERMAN">
+            <Original>Rumbler Manual</Original>
+            <English>Rumbler Manual</English>
+            <Polish>Instrukcja syreny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_T3YELP">
+            <Original>T3 Yelp</Original>
+            <English>T3 Yelp</English>
+            <Polish>T3 Yelp</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_MASTERON">
+            <Original>Master On</Original>
+            <English>Master On</English>
+            <Polish>Główny włączony</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DIRECTMASTER">
+            <Original>Directional Master</Original>
+            <English>Directional Master</English>
+            <Polish>Kontrol główna</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DIRECTCONTR">
+            <Original>Directional Control</Original>
+            <English>Directional Control</English>
+            <Polish>Kontrola kierunkowa</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SIRENMASTER">
+            <Original>Siren Master</Original>
+            <English>Siren Master</English>
+            <Polish>Syrena główna</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SIRENCONTR">
+            <Original>Siren Control</Original>
+            <English>Siren Control</English>
+            <Polish>Kontrola syren</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TURNONOFFLAP">
+            <Original>Turn On/Off Laptop</Original>
+            <English>Turn On/Off Laptop</English>
+            <Polish>Włącz/Wyłącz laptop</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ACCPOLDB">
+            <Original>Access Police Database</Original>
+            <English>Access Police Database</English>
+            <Polish>Otwórz policyjna bazę danych</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_SWIVELLAP">
+            <Original>Swivel Laptop</Original>
+            <English>Swivel Laptop</English>
+            <Polish>Obróć laptop</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RADARMASTER">
+            <Original>Radar Master</Original>
+            <English>Radar Master</English>
+            <Polish>Radar główny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_REARRADAR">
+            <Original>Rear Radar</Original>
+            <English>Rear Radar</English>
+            <Polish>Radar tylny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_FRONTRADAR">
+            <Original>Front Radar</Original>
+            <English>Front Radar</English>
+            <Polish>Radar przedni</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_RESETLOCKFAST">
+            <Original>Reset Lock/Fast</Original>
+            <English>Reset Lock/Fast</English>
+            <Polish>Zresetuj zamknięcie/szybko</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGDOZBLAD">
+            <Original>Toggle Dozer Blade</Original>
+            <English>Toggle Dozer Blade</English>
+            <Polish>Przełącz na spychacz</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DETATTACHM">
+            <Original>Detach Attachment</Original>
+            <English>Detach Attachment</English>
+            <Polish>Odczep dodatek</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPERATMODE">
+            <Original>Operations Mode</Original>
+            <English>Operations Mode</English>
+            <Polish>Tryb operacyjny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_DRIVEMODE">
+            <Original>Drive Mode</Original>
+            <English>Drive Mode</English>
+            <Polish>Tryb kierowania</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONNBUCKET">
+            <Original>Connect Bucket</Original>
+            <English>Connect Bucket</English>
+            <Polish>Przysuń wiaderko</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONNJACKHAM">
+            <Original>Connect Jackhammer</Original>
+            <English>Connect Jackhammer</English>
+            <Polish>Podłącz młot pneumatyczny</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONNECTCLAW">
+            <Original>Connect Claw</Original>
+            <English>Connect Claw</English>
+            <Polish>Podłącz łykę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPCLMAILB">
+            <Original>Open/Close Mailbox</Original>
+            <English>Open/Close Mailbox</English>
+            <Polish>Otwórz/Zamknij skrzynkę pocztową </Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ELECTMAYOR">
+            <Original>Elect Mayor</Original>
+            <English>Elect Mayor</English>
+            <Polish>Wybierz burmistrza</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_MAKEMYCANI">
+            <Original>Make Myself Candidate</Original>
+            <English>Make Myself Candidate</English>
+            <Polish>Zgłoś się na kandydata</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_COLLECTITEM">
+            <Original>Collect Item</Original>
+            <English>Collect Item</English>
+            <Polish>Zbierz przedmiot</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPENMEDICALMEN">
+            <Original>Open Medical Menu</Original>
+            <English>Open Medical Menu</English>
+            <Polish>Menu medyczne</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PICKUPLAD">
+            <Original>Pickup Ladder</Original>
+            <English>Pickup Ladder</English>
+            <Polish>Złap drabinę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CLIMBUPL">
+            <Original>Climb Up Ladder %1</Original>
+            <English>Climb Up Ladder %1</English>
+            <Polish>Wejdź na drabinę %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CLIMBDOWNL">
+            <Original>Climb Down Ladder %1</Original>
+            <English>Climb Down Ladder %1</English>
+            <Polish>Zejdź z drabiny %1</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_EXRELADDER">
+            <Original>Extend/Retract Ladder</Original>
+            <English>Extend/Retract Ladder</English>
+            <Polish>Rozsuń/Zsuń drabinę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTERASENG">
+            <Original>Enter as Engineer</Original>
+            <English>Enter as Engineer</English>
+            <Polish>Wejdź jako inżynier</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTASCAP">
+            <Original>Enter as Captain</Original>
+            <English>Enter as Captain</English>
+            <Polish>Wejdz jako kapitan</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTERASGUN">
+            <Original>Enter as Gunner</Original>
+            <English>Enter as Gunner</English>
+            <Polish>Wejdź jako strzelec</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_ENTERASBOWG">
+            <Original>Enter as Bow Gunner</Original>
+            <English>Enter as Bow Gunner</English>
+            <Polish>Wejdź na wieże strzelniczą</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_GRABLLB">
+            <Original>Grab Left Lifebuoy</Original>
+            <English>Grab Left Lifebuoy</English>
+            <Polish>Złap lewe koło ratunkowe</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PUTBACKLLB">
+            <Original>Put Back Left Lifebuoy</Original>
+            <English>Put Back Left Lifebuoy</English>
+            <Polish>Odłóż lewe koło ratunkowe</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_GRABRLB">
+            <Original>Grab Right Lifebuoy</Original>
+            <English>Grab Right Lifebuoy</English>
+            <Polish>Złap prawe koło ratunkowe</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_PBRLIFEB">
+            <Original>Put Back Right Lifebuoy</Original>
+            <English>Put Back Right Lifebuoy</English>
+            <Polish>Odłóż prawe koło ratunkowe</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGLPF">
+            <Original>Toggle Left Platform</Original>
+            <English>Toggle Left Platform</English>
+            <Polish>Obróć lewą platformę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_TOGRPF">
+            <Original>Toggle Right Platform</Original>
+            <English>Toggle Right Platform</English>
+            <Polish>Obróć prawą platformę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_GOONFIFRD">
+            <Original>Go On FIFR Duty</Original>
+            <English>Go On FIFR Duty</English>
+            <Polish>Rozpocznij służbę FIFR</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_GOOFFFIFRD">
+            <Original>Go Off FIFR Duty</Original>
+            <English>Go Off FIFR Duty</English>
+            <Polish>Zakończ służbę FIFR</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_LOUNLOCKER">
+            <Original>Lock/Unlock Locker</Original>
+            <English>Lock/Unlock Locker</English>
+            <Polish>Zamknij/Otwórz szafkę</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_OPIMEXMENU">
+            <Original>Open Import/Export Menu</Original>
+            <English>Open Import/Export Menu</English>
+            <Polish>Menu importu/eksportu</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_CONVSTOLMONEY">
+            <Original>Convert stolen money</Original>
+            <English>Convert stolen money</English>
+            <Polish>Wypierz brudne pieniądze</Polish>
+        </Key>
+        <Key ID="STR_INTSECT_GRABFURN">
+            <Original>Grab Furniture</Original>
+            <English>Grab Furniture</English>
+            <Polish>Złap mebel</Polish>
+        </Key>
+		<Key ID="STR_INTSECT_ANCHOR">
+            <Original>Drop/Retrieve Anchor</Original>
+            <English>Drop/Retrieve Anchor</English>
+        </Key>
+    </Package>
+   
+    <Package name="Config_QAHouse">
+        <Key ID="STR_BUILD_OPCLBARGD">
+            <Original>System: Your current faction does not allow this gate to be operated</Original>
+            <English>System: Your current faction does not allow this gate to be operated</English>
+            <Polish>System: Twoja obecna praca nie pozwala na otwarcie tej bramy</Polish>
+        </Key>
+        <Key ID="STR_BUILD_NOKEYHAND">
+            <Original>You dont have a key in your hand to open this with</Original>
+            <English>You dont have a key in your hand to open this with</English>
+            <Polish>Nie masz klucza w ręku, aby to otworzyć</Polish>
+        </Key>
+        <Key ID="STR_BUILD_NOOPENTHIS">
+            <Original>You can't open a door with this...</Original>
+            <English>You can't open a door with this...</English>
+            <Polish>Nie można tym otworzyć drzwi...</Polish>
+        </Key>
+        <Key ID="STR_BUILD_ALLDOORUNL">
+            <Original>System: The doors have been unlocked</Original>
+            <English>System: The doors have been unlocked</English>
+            <Polish>Drzwi zostały otwarte</Polish>
+        </Key>
+        <Key ID="STR_BUILD_ALLDOORLOCK">
+            <Original>System: All doors have been locked</Original>
+            <English>System: All doors have been locked</English>
+            <Polish>Wszystkie drzwi zostały zamknięte</Polish>
+        </Key>
+        <Key ID="STR_BUILD_KEYNOFIT">
+            <Original>System: This key does not seem to fit this lock</Original>
+            <English>System: This key does not seem to fit this lock</English>
+            <Polish>Ten klucz nie pasuję do tego zamka</Polish>
+        </Key>
+        <Key ID="STR_BUILD_NOOPENSRDOOR">
+            <Original>System: Unable to Open Showroom Doors</Original>
+            <English>System: Unable to Open Showroom Doors</English>
+            <Polish>System: Nie można otworzyć drzwi salonu</Polish>
+        </Key>
+        <Key ID="STR_BUILD_NOLOOKINGSR">
+            <Original>System: You are not looking at a showroom building</Original>
+            <English>System: You are not looking at a showroom building</English>
+            <Polish>System: Nie patrzysz na salon</Polish>
+        </Key>
+        <Key ID="STR_BUILD_NOCLOSESRD">
+            <Original>System: Unable to Close Showroom Doors</Original>
+            <English>System: Unable to Close Showroom Doors</English>
+            <Polish>System: Nie można zamknąć drzwi salon</Polish>
+        </Key>
+    </Package>
+
+    <Package name="Functions_Player">
+        <Key ID="STR_PLAYER_ANTISPAM">
+            <Original>System: Anti-spam, slow down!</Original>
+            <English>System: Anti-spam, slow down!</English>
+            <Polish>System: Anty-spam, ochłoń!</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_PLSENTERDET">
+            <Original>System: It looks like you are a new player, please enter your details</Original>
+            <English>System: It looks like you are a new player, please enter your details</English>
+            <Polish>System: Wygląda na to, że jesteś tu nowy. Wprowadź swoje dane:</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_NAMEINUSE">
+            <Original>System: Server was unable to create your character, maybe the name is already in use?</Original>
+            <English>System: Server was unable to create your character, maybe the name is already in use?</English>
+            <Polish>System: Serwer nie jest wstanie stworzyć twojej postaci, możliwe, że jest w użyciu.</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_FIRSTN2CHAR">
+            <Original>System: Please enter a firstname that's longer than 2 characters</Original>
+            <English>System: Please enter a firstname that's longer than 2 characters</English>
+            <Polish>System: Wprowadź imię dłuższe niż 2 znaki</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_LASTN2CHAR">
+            <Original>System: Please enter a lastname that's longer than 2 characters</Original>
+            <English>System: Please enter a lastname that's longer than 2 characters</English>
+            <Polish>System: Wprowadź nazwisko dłuższe niż 2 znaki</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_FORBCHAR">
+            <Original>System: You used forbidden characters in your name, please resolve this</Original>
+            <English>System: You used forbidden characters in your name, please resolve this</English>
+            <Polish>System: Użyłeś niedozwolonych znaków, popraw je proszę.</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_CAPITALLETT">
+            <Original>System: Do not use capital letters, this will be done automatically</Original>
+            <English>System: Do not use capital letters, this will be done automatically</English>
+            <Polish>System: Nie używaj dużych liter, zostanie to ustawione automatycznie</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_NOPAYCHCOL">
+            <Original>System: There doesn't seem to be a paycheck to collect</Original>
+            <English>System: There doesn't seem to be a paycheck to collect</English>
+            <Polish>System: Nie mamy dla ciebie żadnej wypłaty</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_SIGNEDREC">
+            <Original>I signed my paycheck and received $%1 into my bank account</Original>
+            <English>I signed my paycheck and received $%1 into my bank account</English>
+            <Polish>Odebrałem wypłatę i przelałem $%1 na moje konto bankowe</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_NOTLOOKINGVALPL">
+            <Original>System: You are not looking at a valid player</Original>
+            <English>System: You are not looking at a valid player</English>
+            <Polish>System: Nie patrzysz na odpowiednią osobę</Polish>
+        </Key>
+        <Key ID="STR_PLAYER_TAKESOMEONEHOST">
+            <Original>System: You are already taking someone hostage!</Original>
+            <English>System: You are already taking someone hostage!</English>
+            <Polish>System: </Polish>
+        </Key>
+    </Package>
+   
+    <Package name="Functions_Loading">
+        <Key ID="STR_LOADING_SERVFUNCREC">
+            <Original>Server functions received</Original>
+            <English>Server functions received</English>
+            <Polish>Funkcje serwera załadowane</Polish>
+        </Key>
+        <Key ID="STR_LOADING_RECPLAYGEAR">
+            <Original>Receiving player gear</Original>
+            <English>Receiving player gear</English>
+            <Polish>Ładowanie wyposażenia gracza</Polish>
+        </Key>
+        <Key ID="STR_LOADING_REC">
+            <Original>Receiving player gear</Original>
+            <English>Receiving player gear</English>
+            <Polish>Ładowanie wyposażenia gracza</Polish>
+        </Key>
+        <Key ID="STR_LOADING_ASSHOUSEAPP">
+            <Original>Assigning house/appartment...</Original>
+            <English>Assigning house/appartment...</English>
+            <Polish>Przypisywanie domu/mieszkania</Polish>
+        </Key>
+        <Key ID="STR_LOADING_PLAYERGEARL">
+            <Original>Player gear loaded</Original>
+            <English>Player gear loaded</English>
+            <Polish>Wyposażenia gracza załadowane</Polish>
+        </Key>
+        <Key ID="STR_LOADING_INITCURVEH">
+            <Original>Initializing current vehicles...</Original>
+            <English>Initializing current vehicles...</English>
+            <Polish>Inicjowanie obecnych pojazdów ...</Polish>
+        </Key>
+        <Key ID="STR_LOADING_VEHINITSUCC">
+            <Original>Vehicles initialized succesfully</Original>
+            <English>Vehicles initialized succesfully</English>
+            <Polish>Pojazdy zainicjowane pomyślnie</Polish>
+        </Key>
+        <Key ID="STR_LOADING_MEDSYSINIT">
+            <Original>Medical system initialized</Original>
+            <English>Medical system initialized</English>
+            <Polish>System medyczny zainicjowany</Polish>
+        </Key>
+        <Key ID="STR_LOADING_PLAYINITSUC">
+            <Original>Player initialized succesfully</Original>
+            <English>Player initialized succesfully</English>
+            <Polish>Gracz zainicjowany pomyślnie</Polish>
+        </Key>
+    </Package>
+   
+    <Package name="Functions_Shop">
+        <Key ID="STR_SHOP_ENTERVALAMOUNT">
+            <Original>System: Please enter a valid amount</Original>
+            <English>System: Please enter a valid amount</English>
+            <Polish>System: Wprowadź prawidłową liczbe</Polish>
+        </Key>
+        <Key ID="STR_SHOP_NOTENOUGHCANDY">
+            <Original>System: You don't have enough candy to buy this item</Original>
+            <English>System: You don't have enough candy to buy this item</English>
+            <Polish>System: Nie masz wystarczająco cukierków, aby zakupić ten przedmiot</Polish>
+        </Key>
+        <Key ID="STR_SHOP_NOTENOUGHMONEY">
+            <Original>System: You don't have enough money to buy this item</Original>
+            <English>System: You don't have enough money to buy this item</English>
+            <Polish>System: Nie masz wystarczająco pieniędzy, aby zakupić ten przedmiot</Polish>
+        </Key>
+        <Key ID="STR_SHOP_BOUGHTITEMCANDY">
+            <Original>System: You bought %4 %1(s) for %2 candy, you have %3 candy remaining</Original>
+            <English>System: You bought %4 %1(s) for %2 candy, you have %3 candy remaining</English>
+            <Polish>Kupiłeś %1 w ilości %4 za $%2 cukierków, pozostało Ci cukierki w ilości $%3</Polish>
+        </Key>
+        <Key ID="STR_SHOP_BOUGHITEMCASH">
+            <Original>System: You bought %4 %1(s) for $%2, you have $%3 remaining</Original>
+            <English>System: You bought %4 %1(s) for $%2, you have $%3 remaining</English>
+            <Polish>System: Kupiłeś %1 w ilości %4 za $%2, pozostało Ci $%3</Polish>
+        </Key>
+        <Key ID="STR_SHOP_SELLBUCKET">
+            <Original>System: Unfortunately this vendor is not looking to buy buckets of fish! but you can process them into raw fish at the food factory!</Original>
+            <English>System: Unfortunately this vendor is not looking to buy buckets of fish! but you can process them into raw fish at the food factory!</English>
+            <Polish>System: Niestety ten sprzedawca nie jest zainteresowany zakupem wiaderka z rybami! Ale może przetworzyć je na surowe ryby w fabryce żywności!</Polish>
+        </Key>
+        <Key ID="STR_SHOP_SELLNETS">
+            <Original>System: Unfortunately this vendor is not looking to buy nets!</Original>
+            <English>System: Unfortunately this vendor is not looking to buy nets!</English>
+            <Polish>System: Niestety ten sprzedawca nie jest zainteresowany zakupem sieci!</Polish>
+        </Key>
+        <Key ID="STR_SHOP_SELLEMPTYBUCKETS">
+            <Original>System: Unfortunately this vendor is not looking to buy empty buckets!</Original>
+            <English>System: Unfortunately this vendor is not looking to buy empty buckets!</English>
+            <Polish>System: Niestety ten sprzedawca nie jest zainteresowany zakupem pustych wiader!</Polish>
+        </Key>
+        <Key ID="STR_SHOP_DONTHAVEITEM">
+            <Original>System: You don't have this item to sell</Original>
+            <English>System: You don't have this item to sell</English>
+            <Polish>System: Nie posiadasz tego przedmiotu do sprzedaży</Polish>
+        </Key>
+        <Key ID="STR_SHOP_SOLDITEMCANDY">
+            <Original>System: You sold 1 %1 for %2 candy, you now have %3 candy</Original>
+            <English>System: You sold 1 %1 for %2 candy, you now have %3 candy</English>
+            <Polish>System: Sprzedałeś 1 %1 za cukierki w ilości %2, pozostało Ci ich %3</Polish>
+        </Key>
+        <Key ID="STR_SHOP_SOLDITEM">
+            <Original>System: You sold %4 %1 for $%2, you have $%3 remaining</Original>
+            <English>System: You sold %4 %1 for $%2, you have $%3 remaining</English>
+            <Polish>Sprzedałeś 1 %1 za $%2, zostało Ci $%3</Polish>
+        </Key>
+    </Package>
+
+
+</Project>
+
